@@ -6,11 +6,10 @@ theme:
   language: ro
   features:
     - navigation.instant
-    - navigation.sections
-    - toc.integrate
+    - navigation.top
     - content.code.copy
-    - search.suggest
-    - search.highlight
+extra_css:
+  - assets/extra.css
 nav:
   - Acasă: index.md
   - Începători:
