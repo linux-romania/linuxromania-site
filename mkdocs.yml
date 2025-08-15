@@ -1,0 +1,32 @@
+site_name: Linux România
+site_description: Ghiduri în limba română pentru Linux. Instalare, configurare, soluții.
+site_url: https://linuxromania.eu
+theme:
+  name: material
+  language: ro
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+nav:
+  - Acasă: index.md
+  - Începători:
+      - Alege distribuția: ghiduri/incepatori/alege-distributia.md
+      - Instalare Linux Mint: ghiduri/incepatori/instalare-mint.md
+      - După instalare: ghiduri/incepatori/dupa-instalare.md
+  - Aplicații: ghiduri/aplicatii/recomandate.md
+  - Rețea și ISP: ghiduri/retea-isp/rdsdigi.md
+  - Comunitate: comunitate.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/linuxromania
