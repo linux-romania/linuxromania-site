@@ -1,10 +1,5 @@
-/* === Layout === */
-.md-main__inner {
-  display: block;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
+/* === Layout (leave Material's grid intact) === */
+/* Don't touch .md-main__inner – keeps sidebars & content aligned */
 
 .md-content {
   max-width: 1100px;
@@ -16,7 +11,7 @@
   margin: 0 auto;
 }
 
-/* === Hero Section === */
+/* === Hero Section (homepage) === */
 .hero {
   text-align: center;
   padding: 72px 16px 40px;
