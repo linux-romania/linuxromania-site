@@ -18,7 +18,6 @@ nav:
       - Instalare Linux Mint: ghiduri/incepatori/instalare-mint.md
       - După instalare: ghiduri/incepatori/dupa-instalare.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
-  - Rețea și ISP: ghiduri/retea-isp/rdsdigi.md
   - Comunitate: comunitate.md
 plugins:
   - search
