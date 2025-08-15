@@ -4,8 +4,8 @@ site_url: https://linuxromania.eu
 theme:
   name: material
   language: ro
-  logo: docs/assets/linuxromania.svg
-  favicon: docs/assets/linuxromania.png
+  logo: assets/linuxromania.svg
+  favicon: assets/linuxromania.png
   features:
     - navigation.instant
     - navigation.top
