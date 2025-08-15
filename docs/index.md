@@ -1,3 +1,7 @@
+title: Linux România
+hide:
+  - navigation
+  - toc
 # Linux România
 Ghiduri clare, în limba română, pentru a instala și folosi Linux.
 TEST!!!
