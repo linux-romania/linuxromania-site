@@ -1,5 +1,6 @@
 # Linux România
 Ghiduri clare, în limba română, pentru a instala și folosi Linux.
+TEST!!!
 
 ## Începe aici
 - [Alege distribuția](ghiduri/incepatori/alege-distributia.md)
