@@ -1,0 +1,24 @@
+/* Layout */
+.md-content { max-width: 1100px; margin: 0 auto; }
+.hero { text-align: center; padding: 72px 16px 40px; }
+.hero h1 { font-size: 3rem; margin: 0 0 8px; }
+.hero p { font-size: 1.25rem; color: var(--md-default-fg-color--light); margin: 0 0 24px; }
+
+.cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.btn { padding: 10px 16px; border-radius: 6px; border: 1px solid var(--md-default-fg-color--light);
+       text-decoration: none; }
+.btn.primary { background: var(--md-primary-fg-color); color: var(--md-primary-bg-color);
+               border-color: var(--md-primary-fg-color); }
+
+.features { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 16px;
+            padding: 24px 16px 8px; }
+.card { background: var(--md-code-bg-color); border-radius: 8px; padding: 16px; }
+
+.sections { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 16px;
+           padding: 8px 16px 40px; }
+.section h2 { margin-bottom: 8px; }
+.section ul { margin: 0; padding-left: 18px; }
+
+/* Hide left sidebar on homepage (Material still loads basic layout) */
+.md-sidebar--primary, .md-sidebar--secondary { display: none; }
+.md-main__inner { margin: 0; }
