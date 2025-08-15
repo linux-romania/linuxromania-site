@@ -1,5 +1,4 @@
 ---
-title: Linux România
 hide:
   - navigation
   - toc
@@ -7,48 +6,44 @@ hide:
 
 <div class="hero">
   <h1>Linux România</h1>
-  <p>Ghiduri clare în limba română. Instalare, configurare, soluții — fără zgomot.</p>
+  <p>Comunitatea dedicată utilizatorilor de Linux din România. Ghiduri, soluții și ajutor în limba română.</p>
+  
   <div class="cta">
-    <a class="btn primary" href="ghiduri/incepatori/alege-distributia/">Începe aici</a>
-    <a class="btn" href="ghiduri/incepatori/instalare-mint/">Instalare Mint</a>
-    <a class="btn" href="https://forum.linuxromania.eu" target="_blank" rel="noopener">Forum</a>
+    <a href="/ghiduri/incepatori/alege-distributia/" class="btn primary">Începe aici</a>
+    <a href="https://forum.linuxromania.eu" class="btn">Accesează Forumul</a>
   </div>
 </div>
 
 <div class="features">
   <div class="card">
-    <h3>Ghiduri pas cu pas</h3>
-    <p>Instalare, post-instalare, aplicații, drivere, rețea.</p>
+    <h3>Ghiduri pentru Începători</h3>
+    <p>Instalare pas cu pas, alegerea distribuției, configurarea sistemului.</p>
   </div>
   <div class="card">
-    <h3>Probleme reale, soluții scurte</h3>
-    <p>Lucrăm cu ISP-uri și hardware comune în România.</p>
+    <h3>Recomandări Aplicații</h3>
+    <p>Descoperă aplicații open-source utile pentru nevoile tale zilnice.</p>
   </div>
   <div class="card">
-    <h3>Comunitate</h3>
-    <p>Întreabă pe forum, răspunde altora, crești comunitatea locală.</p>
+    <h3>Comunitate Activă</h3>
+    <p>Întreabă, răspunde și contribuie alături de alți utilizatori de Linux din România.</p>
   </div>
 </div>
 
 <div class="sections">
   <div class="section">
-    <h2>Pentru începători</h2>
+    <h2>Ultimele Ghiduri</h2>
     <ul>
-      <li><a href="ghiduri/incepatori/alege-distributia/">Cum aleg o distribuție?</a></li>
-      <li><a href="ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></li>
-      <li><a href="ghiduri/incepatori/dupa-instalare/">Ce fac după instalare</a></li>
+      <li><a href="/ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></li>
+      <li><a href="/ghiduri/incepatori/dupa-instalare/">Configurare după instalare</a></li>
+      <li><a href="/ghiduri/aplicatii/recomandate/">Aplicații recomandate</a></li>
     </ul>
   </div>
   <div class="section">
-    <h2>Aplicații utile</h2>
+    <h2>Resurse Utile</h2>
     <ul>
-      <li><a href="ghiduri/aplicatii/recomandate/">Top aplicații recomandate</a></li>
-    </ul>
-  </div>
-  <div class="section">
-    <h2>Rețea & ISP</h2>
-    <ul>
-      <li><a href="ghiduri/retea-isp/rdsdigi/">Digi/RDS: IPv6, ONT, routere</a></li>
+      <li><a href="https://t.me/linuxromania">Canal Telegram</a></li>
+      <li><a href="https://kernel.org">Kernel.org</a></li>
+      <li><a href="https://distrowatch.com">DistroWatch</a></li>
     </ul>
   </div>
 </div>
