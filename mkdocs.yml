@@ -4,6 +4,8 @@ site_url: https://linuxromania.eu
 theme:
   name: material
   language: ro
+  logo: docs/assets/linuxromania.svg
+  favicon: docs/assets/linuxromania.png
   features:
     - navigation.instant
     - navigation.top
@@ -12,12 +14,12 @@ extra_css:
   - assets/extra.css
 nav:
   - Acasă: index.md
-  - Începători:
+  - Forum: https://forum.linuxromania.eu
+  - Ghiduri:
       - Alege distribuția: ghiduri/incepatori/alege-distributia.md
       - Instalare Linux Mint: ghiduri/incepatori/instalare-mint.md
       - După instalare: ghiduri/incepatori/dupa-instalare.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
-  - Comunitate: comunitate.md
 plugins:
   - search
 markdown_extensions:
