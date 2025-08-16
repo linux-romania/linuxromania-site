@@ -65,11 +65,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#noutati-status" class="md-skip">
-          Sari la conținut
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -206,21 +201,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Acasă
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         
@@ -233,43 +213,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Cuprins
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intra-pe-forum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Intră pe forum
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#top-ghiduri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Top ghiduri
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -474,34 +417,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Cuprins
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intra-pe-forum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Intră pe forum
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#top-ghiduri" class="md-nav__link">
-    <span class="md-ellipsis">
-      Top ghiduri
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -519,31 +434,52 @@
 
 
 
-<h1 id="noutati-status">Noutăți &amp; Status</h1>
-<blockquote>
-<p>Informații scurte, utile. Dacă apare o pană de servere, o actualizare importantă sau un ghid nou, o pui aici.</p>
-</blockquote>
-<ul>
-<li><strong><a href="stiri/2025-08-16-arch-mirror-outage/">Arhive Arch: întreruperi pe unele mirror-uri (16 aug 2025)</a></strong></li>
-<li><strong><a href="ghiduri/incepatori/dupa-instalare/">Ghid nou: Configurare după instalare</a></strong></li>
+  <h1>Acasă</h1>
+
+<div class="home-landing">
+
+<div class="forum-cta">
+  <div>
+    <h2>Ai o problemă? Forumul te ajută rapid.</h2>
+    <p>Întreabă, răspunde, lasă soluții pentru alții. Comunitate în română.</p>
+  </div>
+  <div>
+    <a class="btn invert" href="https://forum.linuxromania.eu" target="_blank" rel="noopener">Deschide forumul</a>
+  </div>
+</div>
+
+### Noutăți & status
+
+<ul class="news-list">
+  <li class="news-item">
+    <div class="meta">16 aug 2025</div>
+    <a class="title" href="stiri/2025-08-16-arch-mirror-outage/">Arhive Arch: întreruperi pe unele mirror-uri</a>
+  </li>
+  <li class="news-item">
+    <div class="meta">12 aug 2025</div>
+    <a class="title" href="stiri/2025-08-12-new-mint-release/">Linux Mint: versiune nouă disponibilă</a>
+  </li>
 </ul>
-<p><a href="stiri/">Vezi toate știrile →</a></p>
-<hr />
-<h2 id="intra-pe-forum">Intră pe forum</h2>
-<p>Vrei ajutor rapid sau ai un răspuns bun?<br />
-<strong>Forum:</strong> locul unde întrebăm, răspundem și lăsăm soluții pentru alții.</p>
-<p><a href="https://forum.linuxromania.eu"><strong>Deschide forumul</strong></a>{ .btn .primary }</p>
-<hr />
-<h2 id="top-ghiduri">Top ghiduri</h2>
-<ul>
-<li><a href="ghiduri/incepatori/alege-distributia/">Cum aleg o distribuție</a></li>
-<li><a href="ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></li>
-<li><a href="ghiduri/incepatori/dupa-instalare/">Ce faci după instalare</a></li>
-<li><a href="ghiduri/aplicatii/recomandate/">Aplicații recomandate</a></li>
-</ul>
-<blockquote>
-<p>Ceri un ghid nou? Deschide un subiect pe forum și îl punem pe listă.</p>
-</blockquote>
+<p class="news-more"><a class="btn" href="stiri/">Vezi toate știrile</a></p>
+
+### Top ghiduri
+
+<div class="cards">
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/alege-distributia/">Cum aleg o distribuție</a></h3>
+    <p>Alegere rapidă: Mint, Ubuntu, Fedora. Criterii și compatibilitate.</p>
+  </div>
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></h3>
+    <p>Pași simpli și siguri, de la ISO la desktop.</p>
+  </div>
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/dupa-instalare/">Ce faci după instalare</a></h3>
+    <p>Actualizări, Flatpak/Flathub, codec-uri, drivere.</p>
+  </div>
+</div>
+
+</div>
 
 
 
