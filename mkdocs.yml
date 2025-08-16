@@ -5,10 +5,13 @@ site_url: https://linuxromania.eu
 theme:
   name: material
   language: ro
+  logo: assets/linuxromania.svg
+  favicon: assets/linuxromania.png
   features:
     - navigation.tabs        # top-level tabs
     - navigation.sections    # left sidebar sections on inner pages
     - navigation.instant
+    - navigation.top
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -17,6 +20,18 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/linuxromania
+  alternate: []
+  generator: false
+  actions:
+    - label: Forum
+      icon: material/forum
+      link: https://forum.linuxromania.eu
+      class: md-button md-button--primary
 
 nav:
   - Acasă: index.md
