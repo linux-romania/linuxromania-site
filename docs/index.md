@@ -19,7 +19,6 @@ Dacă ai o problemă, forumul e primul loc în care primești răspuns.
 > Informații scurte și utile. Doar când contează.
 
 - **16 aug 2025** — [Arhive Arch: întreruperi pe unele mirror-uri](stiri/2025-08-16-arch-mirror-outage.md)
-- **12 aug 2025** — [Linux Mint: versiune nouă disponibilă](stiri/2025-08-12-new-mint-release.md)
 - **Ghid nou** — [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
 
 [Vezi toate știrile »](stiri/index.md)
