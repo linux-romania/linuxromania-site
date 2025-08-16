@@ -4,47 +4,31 @@ hide:
   - toc
 ---
 
-<div class="home-landing">
+# Linux România
 
-<div class="forum-cta">
-  <div>
-    <h2>Ai o problemă? Forumul te ajută rapid.</h2>
-    <p>Întreabă, răspunde, lasă soluții pentru alții. Comunitate în română.</p>
-  </div>
-  <div>
-    <a class="btn invert" href="https://forum.linuxromania.eu" target="_blank" rel="noopener">Deschide forumul</a>
-  </div>
-</div>
+Ghiduri, știri și ajutor în limba română pentru Linux.  
+Dacă ai o problemă, forumul e primul loc în care primești răspuns.
 
-### Noutăți & status
+[Începe cu ghidurile](ghiduri/incepatori/alege-distributia/){ .md-button .md-button--primary }
+[Deschide forumul](https://forum.linuxromania.eu){ .md-button }
 
-<ul class="news-list">
-  <li class="news-item">
-    <div class="meta">16 aug 2025</div>
-    <a class="title" href="stiri/2025-08-16-arch-mirror-outage/">Arhive Arch: întreruperi pe unele mirror-uri</a>
-  </li>
-  <li class="news-item">
-    <div class="meta">12 aug 2025</div>
-    <a class="title" href="stiri/2025-08-12-new-mint-release/">Linux Mint: versiune nouă disponibilă</a>
-  </li>
-</ul>
-<p class="news-more"><a class="btn" href="stiri/">Vezi toate știrile</a></p>
+---
 
-### Top ghiduri
+## Noutăți & status
 
-<div class="cards">
-  <div class="card">
-    <h3><a href="ghiduri/incepatori/alege-distributia/">Cum aleg o distribuție</a></h3>
-    <p>Alegere rapidă: Mint, Ubuntu, Fedora. Criterii și compatibilitate.</p>
-  </div>
-  <div class="card">
-    <h3><a href="ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></h3>
-    <p>Pași simpli și siguri, de la ISO la desktop.</p>
-  </div>
-  <div class="card">
-    <h3><a href="ghiduri/incepatori/dupa-instalare/">Ce faci după instalare</a></h3>
-    <p>Actualizări, Flatpak/Flathub, codec-uri, drivere.</p>
-  </div>
-</div>
+> Informații scurte și utile. Doar când contează.
 
-</div>
+- **16 aug 2025** — [Arhive Arch: întreruperi pe unele mirror-uri](stiri/2025-08-16-arch-mirror-outage.md)
+- **12 aug 2025** — [Linux Mint: versiune nouă disponibilă](stiri/2025-08-12-new-mint-release.md)
+- **Ghid nou** — [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
+
+[Vezi toate știrile »](stiri/index.md)
+
+---
+
+## Ghiduri populare
+
+- [Cum aleg o distribuție](ghiduri/incepatori/alege-distributia.md)
+- [Instalare Linux Mint](ghiduri/incepatori/instalare-mint.md)
+- [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
+- [Aplicații recomandate](ghiduri/aplicatii/recomandate.md)
