@@ -1,6 +1,7 @@
 /* ============================
    Linux România – Material skin
    Palette:
+   -- bg:     #16181D
    -- light:  #F1F6F9
    -- mid:    #9BA4B5
    -- slate:  #394867
@@ -9,107 +10,79 @@
 
 :root {
   /* Core colors */
-  --lm-light:  #F1F6F9;
-  --lm-mid:    #9BA4B5;
-  --lm-slate:  #394867;
-  --lm-navy:   #212A3E;
+  --lm-bg:    #16181D;
+  --lm-light: #F1F6F9;
+  --lm-mid:   #9BA4B5;
+  --lm-slate: #394867;
+  --lm-navy:  #212A3E;
 
-  /* Material tokens */
-  --md-default-bg-color: var(--lm-navy);
+  /* Material overrides */
+  --md-default-bg-color: var(--lm-bg);
   --md-default-fg-color: var(--lm-light);
   --md-default-fg-color--light: rgba(241,246,249,.78);
   --md-default-fg-color--lighter: rgba(241,246,249,.55);
 
-  --md-primary-fg-color: var(--lm-light);
-  --md-primary-fg-color--light: #ffffff;
-  --md-primary-fg-color--dark:  #dfe7ee;
-  --md-primary-bg-color: var(--lm-navy);
+  --md-primary-fg-color: var(--lm-slate);
+  --md-primary-fg-color--light: #4a5979;
+  --md-primary-fg-color--dark:  #303d5a;
+  --md-primary-bg-color: var(--lm-bg);
 
-  --md-accent-fg-color: var(--lm-slate);
-  --md-accent-fg-color--transparent: rgba(57,72,103,.25);
+  --md-accent-fg-color: var(--lm-mid);
+  --md-accent-fg-color--transparent: rgba(155,164,181,.25);
 
-  --md-code-bg-color: #2a354b; /* readable against navy */
+  --md-code-bg-color: #21242C; /* dark but distinct from background */
   --md-border-color: rgba(241,246,249,.12);
-
-  /* Buttons */
-  --btn-bg: var(--lm-slate);
-  --btn-bg-hover: #303d5a;
-  --btn-text: var(--lm-light);
-
-  /* Surfaces */
-  --surface-1: #25314a;   /* cards, tiles */
-  --surface-2: #2f3b55;   /* hovers, emphasis */
 }
 
 /* Header / tabs / footer */
 .md-header,
 .md-tabs,
 .md-footer {
-  background: var(--lm-navy) !important;
+  background: var(--lm-bg) !important;
   color: var(--lm-light) !important;
   border-color: var(--md-border-color);
 }
 
-/* Links */
-.md-typeset a {
+/* Sidebar / nav */
+.md-sidebar,
+.md-nav {
+  background: var(--lm-bg);
+}
+.md-nav__link,
+.md-nav__title {
   color: var(--lm-light);
-  text-decoration: none;
-  border-bottom: 1px solid var(--md-accent-fg-color--transparent);
 }
-.md-typeset a:hover {
-  border-color: var(--lm-light);
+.md-nav__link--active {
+  font-weight: 600;
+  color: var(--lm-mid);
 }
 
-/* Sidebar / nav text */
-.md-nav__link { color: var(--lm-light); }
-.md-nav__link:hover { color: var(--lm-light); opacity: .9; }
-.md-nav__title,
-.md-nav__item .md-nav__link--active { color: var(--lm-light); }
-
-/* Buttons (Material .md-button and custom .btn) */
+/* Buttons */
 .md-button,
 .btn {
   display: inline-block;
   padding: .55rem .9rem;
   border-radius: .6rem;
-  background: var(--btn-bg);
-  color: var(--btn-text) !important;
-  border: 1px solid rgba(0,0,0,.2);
-}
-.md-button--primary,
-.btn.primary {
+  border: 1px solid var(--md-border-color);
   background: var(--lm-slate);
   color: var(--lm-light) !important;
-  border-color: rgba(0,0,0,.25);
+  text-decoration: none;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
 }
 .md-button:hover,
-.btn:hover,
-.md-button--primary:hover,
-.btn.primary:hover {
-  background: var(--btn-bg-hover);
+.btn:hover {
+  background: var(--md-primary-fg-color--dark);
+  border-color: var(--md-primary-fg-color--dark);
 }
 
-/* Cards: admonitions, details */
-.md-typeset .admonition,
-.md-typeset details {
-  background: var(--surface-1);
-  border: 1px solid var(--md-border-color);
-  border-radius: .6rem;
-}
-.md-typeset .admonition > .admonition-title {
-  background: var(--surface-2);
-  color: var(--lm-light);
-  border-bottom: 1px solid var(--md-border-color);
+/* Fix for "white until hover" bug */
+.md-button:visited,
+.btn:visited {
+  color: var(--lm-light) !important;
+  background: var(--lm-slate) !important;
 }
 
-/* Blockquotes */
-.md-typeset blockquote {
-  border-left: 4px solid var(--lm-slate);
-  color: var(--md-default-fg-color);
-  background: rgba(57,72,103,.12);
-}
-
-/* Code – inline and blocks (high contrast) */
+/* Code blocks */
 .md-typeset code,
 .md-typeset pre code {
   background: var(--md-code-bg-color);
@@ -125,17 +98,31 @@
   overflow-x: auto;
 }
 
-/* Pygments token colors (VSCode-ish, matched to palette) */
-.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn { color: #C586C0; } /* keywords */
-.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .s1, .highlight .s2 { color: #CE9178; } /* strings */
-.highlight .n, .highlight .nx, .highlight .nn, .highlight .na { color: #D8DEE9; } /* names */
-.highlight .nt, .highlight .nf { color: #9CDCFE; } /* tags/functions */
-.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6A9955; font-style: italic; } /* comments */
-.highlight .m, .highlight .mi, .highlight .mf { color: #B5CEA8; } /* numbers */
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  background: #1d212a;
+  border: 1px solid var(--md-border-color);
+  border-radius: .6rem;
+}
+.md-typeset .admonition > .admonition-title {
+  background: #222632;
+  color: var(--lm-light);
+  border-bottom: 1px solid var(--md-border-color);
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid var(--lm-slate);
+  color: var(--lm-light);
+  background: rgba(57,72,103,.15);
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+}
 
 /* Tables */
 .md-typeset table:not([class]) {
-  background: var(--surface-1);
+  background: #1d212a;
   border: 1px solid var(--md-border-color);
   border-radius: .6rem;
   overflow: hidden;
@@ -145,47 +132,15 @@
   border-color: var(--md-border-color);
 }
 .md-typeset table:not([class]) tr:nth-child(2n) {
-  background: rgba(57,72,103,.10);
+  background: rgba(57,72,103,.08);
 }
 
-/* Search dialog */
+/* Search */
 .md-search__input {
-  background: var(--surface-1);
+  background: #1d212a;
   color: var(--lm-light);
   border: 1px solid var(--md-border-color);
 }
-.md-search-result__meta { color: var(--lm-mid); }
-
-/* Pagination / nav buttons */
-.md-pagination {
-  border-top: 1px solid var(--md-border-color);
-}
-.md-pagination__link {
-  background: var(--surface-1);
-  border: 1px solid var(--md-border-color);
-  border-radius: .6rem;
-}
-
-/* Images & figures – subtle border for clarity */
-.md-typeset img {
-  border-radius: .4rem;
-  border: 1px solid var(--md-border-color);
-}
-
-/* Home-only niceties if you use a wrapper */
-.home-landing .news-list .news-item {
-  background: var(--surface-1);
-  border: 1px solid var(--md-border-color);
-  border-radius: .6rem;
-}
-
-/* Focus states (keyboard) */
-:focus-visible {
-  outline: 2px solid var(--lm-slate);
-  outline-offset: 2px;
-}
-
-/* Optional: lighten code selection */
-::selection {
-  background: rgba(241,246,249,.16);
+.md-search-result__meta {
+  color: var(--lm-mid);
 }
