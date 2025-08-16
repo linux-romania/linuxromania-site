@@ -55,29 +55,27 @@
 }
 
 /* ----------------- Buttons ----------------- */
-/* Make sure buttons never flash white by defining all states */
 a.md-button, .md-button, .btn {
   display: inline-block;
   padding: .55rem .9rem;
   border-radius: .6rem;
-  background: var(--lr-slate) !important;
-  color: var(--lr-light) !important;
-  border: 1px solid var(--md-border-color) !important;
-  box-shadow: none;
+  background: #F1F6F9 !important;   /* light button */
+  color: #16181D !important;        /* dark text */
+  border: 1px solid rgba(0,0,0,.15) !important;
+  font-weight: 600;
+  text-decoration: none;
   transition: background .15s ease, border-color .15s ease, transform .02s ease;
 }
-a.md-button:link, a.md-button:visited,
-.md-button:link, .md-button:visited,
-.btn:link, .btn:visited {
-  background: var(--lr-slate) !important;
-  color: var(--lr-light) !important;
-  border-color: var(--md-border-color) !important;
-}
+
 a.md-button:hover, .md-button:hover, .btn:hover {
-  background: var(--md-primary-fg-color--dark) !important;
-  border-color: var(--md-primary-fg-color--dark) !important;
+  background: #e0e6ea !important;   /* slightly darker on hover */
+  border-color: #cfd6db !important;
 }
-a.md-button:active, .md-button:active, .btn:active { transform: scale(.98); }
+
+a.md-button:active, .md-button:active, .btn:active {
+  transform: scale(.98);
+}
+
 
 /* If you made a header action button, keep the same styling next to search */
 .md-header__actions .md-button { margin-left: .5rem; }
