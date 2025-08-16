@@ -138,6 +138,11 @@ a.md-button:active, .md-button:active, .btn:active {
 }
 .md-search-result__meta { color: var(--lr-mid); }
 
+/* Search icon */
+.md-search__icon {
+  color: #F1F6F9 !important;
+}
+
 /* Accessibility: clear focus */
 :focus-visible { outline: 2px solid var(--lr-slate); outline-offset: 2px; }
 ::selection { background: rgba(241,246,249,.16); }
