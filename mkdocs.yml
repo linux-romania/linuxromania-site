@@ -11,7 +11,6 @@ theme:
     - navigation.tabs        # top-level tabs
     - navigation.sections    # left sidebar sections on inner pages
     - navigation.instant
-    - navigation.top
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -25,23 +24,15 @@ extra:
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/linuxromania
-  alternate: []
-  generator: false
-  actions:
-    - label: Forum
-      icon: material/forum
-      link: https://forum.linuxromania.eu
-      class: md-button md-button--primary
-
 nav:
   - Acasă: index.md
   - Știri: stiri/index.md
-  - Forum: https://forum.linuxromania.eu
   - Ghiduri:
       - Alege distribuția: ghiduri/incepatori/alege-distributia.md
       - Instalare Linux Mint: ghiduri/incepatori/instalare-mint.md
       - După instalare: ghiduri/incepatori/dupa-instalare.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
+  - Forum: https://forum.linuxromania.eu
 
 plugins:
   - search
