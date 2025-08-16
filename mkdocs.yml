@@ -6,11 +6,12 @@ theme:
   name: material
   language: ro
   features:
+    - navigation.tabs        # top-level tabs
+    - navigation.sections    # left sidebar sections on inner pages
     - navigation.instant
-    - navigation.top
     - content.code.copy
-extra_css:
-  - assets/extra-v2.css
+    - search.suggest
+    - search.highlight
 
 nav:
   - Acasă: index.md
