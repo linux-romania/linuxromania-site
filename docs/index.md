@@ -4,31 +4,47 @@ hide:
   - toc
 ---
 
-# Noutăți & Status
+<div class="home-landing">
 
-> Informații scurte, utile. Dacă apare o pană de servere, o actualizare importantă sau un ghid nou, o pui aici.
+<div class="forum-cta">
+  <div>
+    <h2>Ai o problemă? Forumul te ajută rapid.</h2>
+    <p>Întreabă, răspunde, lasă soluții pentru alții. Comunitate în română.</p>
+  </div>
+  <div>
+    <a class="btn invert" href="https://forum.linuxromania.eu" target="_blank" rel="noopener">Deschide forumul</a>
+  </div>
+</div>
 
-- **[Arhive Arch: întreruperi pe unele mirror-uri (16 aug 2025)](stiri/2025-08-16-arch-mirror-outage.md)**
-- **[Ghid nou: Configurare după instalare](ghiduri/incepatori/dupa-instalare.md)**
+### Noutăți & status
 
-[Vezi toate știrile →](stiri/index.md)
+<ul class="news-list">
+  <li class="news-item">
+    <div class="meta">16 aug 2025</div>
+    <a class="title" href="stiri/2025-08-16-arch-mirror-outage/">Arhive Arch: întreruperi pe unele mirror-uri</a>
+  </li>
+  <li class="news-item">
+    <div class="meta">12 aug 2025</div>
+    <a class="title" href="stiri/2025-08-12-new-mint-release/">Linux Mint: versiune nouă disponibilă</a>
+  </li>
+</ul>
+<p class="news-more"><a class="btn" href="stiri/">Vezi toate știrile</a></p>
 
----
+### Top ghiduri
 
-## Intră pe forum
+<div class="cards">
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/alege-distributia/">Cum aleg o distribuție</a></h3>
+    <p>Alegere rapidă: Mint, Ubuntu, Fedora. Criterii și compatibilitate.</p>
+  </div>
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></h3>
+    <p>Pași simpli și siguri, de la ISO la desktop.</p>
+  </div>
+  <div class="card">
+    <h3><a href="ghiduri/incepatori/dupa-instalare/">Ce faci după instalare</a></h3>
+    <p>Actualizări, Flatpak/Flathub, codec-uri, drivere.</p>
+  </div>
+</div>
 
-Vrei ajutor rapid sau ai un răspuns bun?  
-**Forum:** locul unde întrebăm, răspundem și lăsăm soluții pentru alții.
-
-[**Deschide forumul**](https://forum.linuxromania.eu){ .btn .primary }
-
----
-
-## Top ghiduri
-
-- [Cum aleg o distribuție](ghiduri/incepatori/alege-distributia.md)
-- [Instalare Linux Mint](ghiduri/incepatori/instalare-mint.md)
-- [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
-- [Aplicații recomandate](ghiduri/aplicatii/recomandate.md)
-
-> Ceri un ghid nou? Deschide un subiect pe forum și îl punem pe listă.
+</div>
