@@ -1,13 +1,149 @@
+/* ===== Design tokens ===== */
+:root {
+  --brand: #2563eb;
+  --brand-strong: #1e40af;
+  --text-muted: #6b7280;
+  --card-bg: #ffffff;
+  --card-border: rgba(0,0,0,.06);
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* Dark mode tokens */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-bg: #12151b;
+    --card-border: rgba(255,255,255,.08);
+    --text-muted: #a3a8b3;
+    --shadow: 0 14px 36px rgba(0,0,0,.45);
+  }
+}
+
+/* ===== Global niceties that won't break layout ===== */
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(37,99,235,.25);
+}
+.md-typeset a:hover {
+  border-color: rgba(37,99,235,.6);
+}
+.md-typeset h1, .md-typeset h2 {
+  letter-spacing: -.012em;
+}
+.md-typeset blockquote {
+  border-left: 3px solid var(--brand);
+}
+
+/* ===== Homepage-only wrapper ===== */
+.home-landing {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px 16px 40px;
+}
+
+/* ===== Forum CTA banner ===== */
+.forum-cta {
+  background: linear-gradient(135deg, var(--brand), var(--brand-strong));
+  color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  align-items: center;
+  margin: 8px 0 24px;
+}
+.forum-cta h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.forum-cta p {
+  margin: 4px 0 0 0;
+  opacity: .95;
+}
+@media (max-width: 720px) {
+  .forum-cta { grid-template-columns: 1fr; }
+}
+
 /* Buttons used on homepage */
 .btn {
-  display:inline-block; padding:10px 16px; border-radius:10px;
-  border:1px solid rgba(0,0,0,.15); text-decoration:none;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,.15);
+  background: #fff;
+  color: #111827;
 }
 .btn.primary {
-  background:#2563eb; color:#fff; border-color:#2563eb;
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
 }
-.btn.primary:hover { background:#1e40af; border-color:#1e40af; }
+.btn.primary:hover { background: var(--brand-strong); border-color: var(--brand-strong); }
+.btn.invert {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255,255,255,.7);
+}
+.btn.invert:hover {
+  border-color: #fff;
+}
 
-/* Tighter lists on news sections */
-.md-typeset ul { margin-top: .2rem; }
-.md-typeset blockquote { border-left: 3px solid #2563eb; }
+/* ===== News list (cards) ===== */
+.news-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 12px 0 4px;
+  padding: 0;
+  list-style: none;
+}
+.news-item {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.news-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.12);
+}
+.news-item .meta {
+  font-size: .9rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.news-item a.title {
+  font-weight: 650;
+  font-size: 1.02rem;
+  color: inherit;
+  border: none;         /* title link stays clean */
+}
+.news-more {
+  margin-top: 6px;
+}
+
+/* ===== Feature cards (optional section) ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 14px;
+  margin: 16px 0 8px;
+}
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+}
+.card h3 { margin-top: 2px; }
+
+/* ===== Reduce motion respect ===== */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+  .news-item:hover { transform: none !important; }
+}
