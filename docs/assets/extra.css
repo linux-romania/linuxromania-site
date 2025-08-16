@@ -1,63 +1,191 @@
+/* ============================
+   Linux România – Material skin
+   Palette:
+   -- light:  #F1F6F9
+   -- mid:    #9BA4B5
+   -- slate:  #394867
+   -- navy:   #212A3E
+   ============================ */
+
 :root {
-  /* Backgrounds / Main surfaces */
-  --md-default-bg-color: #212A3E;
-  --md-code-bg-color: #1b2233;
+  /* Core colors */
+  --lm-light:  #F1F6F9;
+  --lm-mid:    #9BA4B5;
+  --lm-slate:  #394867;
+  --lm-navy:   #212A3E;
 
-  /* Text colors */
-  --md-default-fg-color: #F1F6F9;
-  --md-default-fg-color--light: rgba(241, 246, 249, 0.7);
-  --md-default-fg-color--lighter: rgba(241, 246, 249, 0.45);
+  /* Material tokens */
+  --md-default-bg-color: var(--lm-navy);
+  --md-default-fg-color: var(--lm-light);
+  --md-default-fg-color--light: rgba(241,246,249,.78);
+  --md-default-fg-color--lighter: rgba(241,246,249,.55);
 
-  /* Primary theme color */
-  --md-primary-fg-color: #F1F6F9;
-  --md-primary-fg-color--light: rgba(241, 246, 249, 0.85);
-  --md-primary-fg-color--dark: #dce4ec;
-  --md-primary-bg-color: #212A3E;
-  --md-primary-bg-color--light: #2b364d;
+  --md-primary-fg-color: var(--lm-light);
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark:  #dfe7ee;
+  --md-primary-bg-color: var(--lm-navy);
 
-  /* Accent (links, highlights) */
-  --md-accent-fg-color: #F1F6F9;
-  --md-accent-fg-color--transparent: rgba(241, 246, 249, 0.15);
+  --md-accent-fg-color: var(--lm-slate);
+  --md-accent-fg-color--transparent: rgba(57,72,103,.25);
 
-  /* Borders / dividers */
-  --md-border-color: rgba(241, 246, 249, 0.1);
+  --md-code-bg-color: #2a354b; /* readable against navy */
+  --md-border-color: rgba(241,246,249,.12);
+
+  /* Buttons */
+  --btn-bg: var(--lm-slate);
+  --btn-bg-hover: #303d5a;
+  --btn-text: var(--lm-light);
+
+  /* Surfaces */
+  --surface-1: #25314a;   /* cards, tiles */
+  --surface-2: #2f3b55;   /* hovers, emphasis */
 }
 
-/* Fix header/tab background */
-.md-header, .md-tabs {
-  background-color: #212A3E !important;
-  color: #F1F6F9 !important;
+/* Header / tabs / footer */
+.md-header,
+.md-tabs,
+.md-footer {
+  background: var(--lm-navy) !important;
+  color: var(--lm-light) !important;
+  border-color: var(--md-border-color);
 }
 
-/* Links in content */
+/* Links */
 .md-typeset a {
-  color: #F1F6F9;
-  font-weight: 600;
+  color: var(--lm-light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--md-accent-fg-color--transparent);
 }
 .md-typeset a:hover {
-  text-decoration: underline;
+  border-color: var(--lm-light);
 }
 
-/* Code blocks and inline code */
+/* Sidebar / nav text */
+.md-nav__link { color: var(--lm-light); }
+.md-nav__link:hover { color: var(--lm-light); opacity: .9; }
+.md-nav__title,
+.md-nav__item .md-nav__link--active { color: var(--lm-light); }
+
+/* Buttons (Material .md-button and custom .btn) */
+.md-button,
+.btn {
+  display: inline-block;
+  padding: .55rem .9rem;
+  border-radius: .6rem;
+  background: var(--btn-bg);
+  color: var(--btn-text) !important;
+  border: 1px solid rgba(0,0,0,.2);
+}
+.md-button--primary,
+.btn.primary {
+  background: var(--lm-slate);
+  color: var(--lm-light) !important;
+  border-color: rgba(0,0,0,.25);
+}
+.md-button:hover,
+.btn:hover,
+.md-button--primary:hover,
+.btn.primary:hover {
+  background: var(--btn-bg-hover);
+}
+
+/* Cards: admonitions, details */
+.md-typeset .admonition,
+.md-typeset details {
+  background: var(--surface-1);
+  border: 1px solid var(--md-border-color);
+  border-radius: .6rem;
+}
+.md-typeset .admonition > .admonition-title {
+  background: var(--surface-2);
+  color: var(--lm-light);
+  border-bottom: 1px solid var(--md-border-color);
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid var(--lm-slate);
+  color: var(--md-default-fg-color);
+  background: rgba(57,72,103,.12);
+}
+
+/* Code – inline and blocks (high contrast) */
 .md-typeset code,
 .md-typeset pre code {
-  background-color: #2B344C !important; /* slightly lighter than page bg */
-  color: #F1F6F9 !important;           /* bright text */
-  border-radius: 6px;
-  padding: 0.2em 0.4em;
+  background: var(--md-code-bg-color);
+  color: var(--lm-light);
+  border-radius: .45rem;
+  padding: .15em .4em;
 }
-
-/* Larger fenced blocks */
 .md-typeset pre {
-  background-color: #2B344C !important;
-  border: 1px solid rgba(241,246,249,0.15);
-  padding: 1em;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-border-color);
+  padding: 1rem;
+  border-radius: .6rem;
   overflow-x: auto;
 }
 
-/* Syntax highlighting tweaks */
-.highlight .n, /* names */
-.highlight .nf, .highlight .nt { color: #9CDCFE !important; }
-.highlight .k { color: #C586C0 !important; }
-.highlight .s { color: #CE9178 !important; }
-.highlight .c { color: #6A9955 !important; font-style: italic; }
+/* Pygments token colors (VSCode-ish, matched to palette) */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn { color: #C586C0; } /* keywords */
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .s1, .highlight .s2 { color: #CE9178; } /* strings */
+.highlight .n, .highlight .nx, .highlight .nn, .highlight .na { color: #D8DEE9; } /* names */
+.highlight .nt, .highlight .nf { color: #9CDCFE; } /* tags/functions */
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6A9955; font-style: italic; } /* comments */
+.highlight .m, .highlight .mi, .highlight .mf { color: #B5CEA8; } /* numbers */
+
+/* Tables */
+.md-typeset table:not([class]) {
+  background: var(--surface-1);
+  border: 1px solid var(--md-border-color);
+  border-radius: .6rem;
+  overflow: hidden;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-color: var(--md-border-color);
+}
+.md-typeset table:not([class]) tr:nth-child(2n) {
+  background: rgba(57,72,103,.10);
+}
+
+/* Search dialog */
+.md-search__input {
+  background: var(--surface-1);
+  color: var(--lm-light);
+  border: 1px solid var(--md-border-color);
+}
+.md-search-result__meta { color: var(--lm-mid); }
+
+/* Pagination / nav buttons */
+.md-pagination {
+  border-top: 1px solid var(--md-border-color);
+}
+.md-pagination__link {
+  background: var(--surface-1);
+  border: 1px solid var(--md-border-color);
+  border-radius: .6rem;
+}
+
+/* Images & figures – subtle border for clarity */
+.md-typeset img {
+  border-radius: .4rem;
+  border: 1px solid var(--md-border-color);
+}
+
+/* Home-only niceties if you use a wrapper */
+.home-landing .news-list .news-item {
+  background: var(--surface-1);
+  border: 1px solid var(--md-border-color);
+  border-radius: .6rem;
+}
+
+/* Focus states (keyboard) */
+:focus-visible {
+  outline: 2px solid var(--lm-slate);
+  outline-offset: 2px;
+}
+
+/* Optional: lighten code selection */
+::selection {
+  background: rgba(241,246,249,.16);
+}
