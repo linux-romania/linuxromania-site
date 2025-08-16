@@ -1,17 +1,39 @@
-/* Top tabs (desktop) */
-.md-tabs__link[href="https://forum.linuxromania.eu"] {
-  font-weight: 800;
-  color: var(--md-primary-fg-color);
-}
-.md-tabs__link[href="https://forum.linuxromania.eu"]:hover {
-  text-decoration: underline;
+:root {
+  /* Backgrounds / Main surfaces */
+  --md-default-bg-color: #212A3E;
+  --md-code-bg-color: #1b2233;
+
+  /* Text colors */
+  --md-default-fg-color: #F1F6F9;
+  --md-default-fg-color--light: rgba(241, 246, 249, 0.7);
+  --md-default-fg-color--lighter: rgba(241, 246, 249, 0.45);
+
+  /* Primary theme color */
+  --md-primary-fg-color: #F1F6F9;
+  --md-primary-fg-color--light: rgba(241, 246, 249, 0.85);
+  --md-primary-fg-color--dark: #dce4ec;
+  --md-primary-bg-color: #212A3E;
+  --md-primary-bg-color--light: #2b364d;
+
+  /* Accent (links, highlights) */
+  --md-accent-fg-color: #F1F6F9;
+  --md-accent-fg-color--transparent: rgba(241, 246, 249, 0.15);
+
+  /* Borders / dividers */
+  --md-border-color: rgba(241, 246, 249, 0.1);
 }
 
-/* Drawer/Sidebar (mobile and left nav) */
-.md-nav__link[href="https://forum.linuxromania.eu"] {
-  font-weight: 800;
-  color: var(--md-primary-fg-color);
+/* Fix header/tab background */
+.md-header, .md-tabs {
+  background-color: #212A3E !important;
+  color: #F1F6F9 !important;
 }
-.md-nav__link[href="https://forum.linuxromania.eu"]:hover {
+
+/* Links in content */
+.md-typeset a {
+  color: #F1F6F9;
+  font-weight: 600;
+}
+.md-typeset a:hover {
   text-decoration: underline;
 }
