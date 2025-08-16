@@ -1,53 +1,34 @@
 ---
 title: Linux România
 hide:
-  - navigation
   - toc
 ---
 
-<div class="home-landing">
+# Noutăți & Status
 
-  <div class="hero">
-    <h1>Linux România</h1>
-    <p>Comunitatea dedicată utilizatorilor de Linux din România. Ghiduri, soluții și ajutor în limba română.</p>
-    <div class="cta">
-      <a href="/ghiduri/incepatori/alege-distributia/" class="btn primary">Începe aici</a>
-      <a href="https://forum.linuxromania.eu" class="btn">Accesează Forumul</a>
-    </div>
-  </div>
+> Informații scurte, utile. Dacă apare o pană de servere, o actualizare importantă sau un ghid nou, o pui aici.
 
-  <div class="features">
-    <div class="card">
-      <h3>Ghiduri pentru Începători</h3>
-      <p>Instalare pas cu pas, alegerea distribuției, configurarea sistemului.</p>
-    </div>
-    <div class="card">
-      <h3>Recomandări Aplicații</h3>
-      <p>Aplicații open-source utile pentru zi cu zi.</p>
-    </div>
-    <div class="card">
-      <h3>Comunitate</h3>
-      <p>Întreabă, răspunde și contribuie pe forum.</p>
-    </div>
-  </div>
+- **[Arhive Arch: întreruperi pe unele mirror-uri (16 aug 2025)](stiri/2025-08-16-arch-mirror-outage.md)**
+- **[Ghid nou: Configurare după instalare](ghiduri/incepatori/dupa-instalare.md)**
 
-  <div class="sections">
-    <div class="section">
-      <h2>Ultimele Ghiduri</h2>
-      <ul>
-        <li><a href="/ghiduri/incepatori/instalare-mint/">Instalare Linux Mint</a></li>
-        <li><a href="/ghiduri/incepatori/dupa-instalare/">Configurare după instalare</a></li>
-        <li><a href="/ghiduri/aplicatii/recomandate/">Aplicații recomandate</a></li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Resurse Utile</h2>
-      <ul>
-        <li><a href="https://t.me/linuxromania">Canal Telegram</a></li>
-        <li><a href="https://kernel.org">Kernel.org</a></li>
-        <li><a href="https://distrowatch.com">DistroWatch</a></li>
-      </ul>
-    </div>
-  </div>
+[Vezi toate știrile →](stiri/index.md)
 
-</div>
+---
+
+## Intră pe forum
+
+Vrei ajutor rapid sau ai un răspuns bun?  
+**Forum:** locul unde întrebăm, răspundem și lăsăm soluții pentru alții.
+
+[**Deschide forumul**](https://forum.linuxromania.eu){ .btn .primary }
+
+---
+
+## Top ghiduri
+
+- [Cum aleg o distribuție](ghiduri/incepatori/alege-distributia.md)
+- [Instalare Linux Mint](ghiduri/incepatori/instalare-mint.md)
+- [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
+- [Aplicații recomandate](ghiduri/aplicatii/recomandate.md)
+
+> Ceri un ghid nou? Deschide un subiect pe forum și îl punem pe listă.
