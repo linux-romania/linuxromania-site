@@ -147,3 +147,14 @@ a.md-button:active, .md-button:active, .btn:active {
 :focus-visible { outline: 2px solid var(--lr-slate); outline-offset: 2px; }
 ::selection { background: rgba(241,246,249,.16); }
 
+/* Remove underline from all links */
+a, .md-typeset a {
+  text-decoration: none !important;
+}
+
+/* Optional: add underline only on hover if you still want feedback */
+a:hover, .md-typeset a:hover {
+  text-decoration: underline;
+}
+
+
