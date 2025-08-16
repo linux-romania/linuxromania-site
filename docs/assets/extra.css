@@ -129,22 +129,28 @@ a.md-button:active, .md-button:active, .btn:active {
   padding: .5rem 1rem;
   border-radius: .3rem;
 }
+
 /* ----------------- Search box ----------------- */
 .md-search__input {
-  background: #F1F6F9 !important;   /* light background */
-  color: #16181D !important;        /* dark text */
+  background: #1B2029 !important;   /* dark background */
+  color: #F1F6F9 !important;        /* light text */
   border-radius: .6rem !important;
-  border: 1px solid rgba(0,0,0,.15) !important;
+  border: 1px solid #394867 !important;
   padding: .45rem .8rem !important;
-  transition: background .15s ease, border-color .15s ease;
 }
 
 .md-search__input::placeholder {
-  color: #394867 !important;        /* softer placeholder text */
+  color: #9BA4B5 !important;        /* muted placeholder */
 }
 
 .md-search__input:focus {
-  background: #ffffff !important;   /* slightly brighter when active */
+  background: #212A3E !important;   /* slightly lighter when focused */
   border-color: #9BA4B5 !important;
   outline: none !important;
 }
+
+/* Search icon inside box */
+.md-search__icon {
+  color: #F1F6F9 !important;
+}
+
