@@ -37,3 +37,27 @@
 .md-typeset a:hover {
   text-decoration: underline;
 }
+
+/* Code blocks and inline code */
+.md-typeset code,
+.md-typeset pre code {
+  background-color: #2B344C !important; /* slightly lighter than page bg */
+  color: #F1F6F9 !important;           /* bright text */
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+}
+
+/* Larger fenced blocks */
+.md-typeset pre {
+  background-color: #2B344C !important;
+  border: 1px solid rgba(241,246,249,0.15);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Syntax highlighting tweaks */
+.highlight .n, /* names */
+.highlight .nf, .highlight .nt { color: #9CDCFE !important; }
+.highlight .k { color: #C586C0 !important; }
+.highlight .s { color: #CE9178 !important; }
+.highlight .c { color: #6A9955 !important; font-style: italic; }
