@@ -1,9 +1,17 @@
-/* Make the Forum nav link bold and highlighted */
-.md-nav__link[href="https://forum.linuxromania.eu"] {
-  font-weight: 700;
-  color: #2563eb;
+/* Top tabs (desktop) */
+.md-tabs__link[href="https://forum.linuxromania.eu"] {
+  font-weight: 800;
+  color: var(--md-primary-fg-color);
+}
+.md-tabs__link[href="https://forum.linuxromania.eu"]:hover {
+  text-decoration: underline;
 }
 
+/* Drawer/Sidebar (mobile and left nav) */
+.md-nav__link[href="https://forum.linuxromania.eu"] {
+  font-weight: 800;
+  color: var(--md-primary-fg-color);
+}
 .md-nav__link[href="https://forum.linuxromania.eu"]:hover {
   text-decoration: underline;
 }
