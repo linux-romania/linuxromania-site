@@ -1,94 +1,94 @@
-/* ============================
-   Linux România – Material skin
+/* =========================
+   Linux România – clean dark skin
    Palette:
-   -- bg:     #16181D
-   -- light:  #F1F6F9
-   -- mid:    #9BA4B5
-   -- slate:  #394867
-   -- navy:   #212A3E
-   ============================ */
+   bg  #16181D
+   slate #394867
+   light #F1F6F9
+   mid   #9BA4B5
+   ========================= */
 
 :root {
-  /* Core colors */
-  --lm-bg:    #16181D;
-  --lm-light: #F1F6F9;
-  --lm-mid:   #9BA4B5;
-  --lm-slate: #394867;
-  --lm-navy:  #212A3E;
+  --lr-bg:   #16181D;
+  --lr-slate:#394867;
+  --lr-light:#F1F6F9;
+  --lr-mid:  #9BA4B5;
 
-  /* Material overrides */
-  --md-default-bg-color: var(--lm-bg);
-  --md-default-fg-color: var(--lm-light);
-  --md-default-fg-color--light: rgba(241,246,249,.78);
-  --md-default-fg-color--lighter: rgba(241,246,249,.55);
+  /* Material core */
+  --md-default-bg-color: var(--lr-bg);
+  --md-default-fg-color: var(--lr-light);
+  --md-default-fg-color--light: rgba(241,246,249,.82);
+  --md-default-fg-color--lighter: rgba(241,246,249,.62);
 
-  --md-primary-fg-color: var(--lm-slate);
-  --md-primary-fg-color--light: #4a5979;
-  --md-primary-fg-color--dark:  #303d5a;
-  --md-primary-bg-color: var(--lm-bg);
+  /* Keep primary = slate so built-in buttons don’t revert to white */
+  --md-primary-fg-color: var(--lr-slate);
+  --md-primary-fg-color--light: #46567a;
+  --md-primary-fg-color--dark:  #2f3b55;
+  --md-primary-bg-color: var(--lr-bg);
 
-  --md-accent-fg-color: var(--lm-mid);
-  --md-accent-fg-color--transparent: rgba(155,164,181,.25);
+  --md-accent-fg-color: var(--lr-light);
+  --md-border-color: rgba(241,246,249,.14);
 
-  --md-code-bg-color: #21242C; /* dark but distinct from background */
-  --md-border-color: rgba(241,246,249,.12);
+  /* Code */
+  --md-code-bg-color: #20242C;
 }
 
-/* Header / tabs / footer */
-.md-header,
-.md-tabs,
-.md-footer {
-  background: var(--lm-bg) !important;
-  color: var(--lm-light) !important;
+/* Header/tabs/footer stay dark */
+.md-header, .md-tabs, .md-footer {
+  background: var(--lr-bg) !important;
+  color: var(--lr-light) !important;
   border-color: var(--md-border-color);
 }
 
-/* Sidebar / nav */
-.md-sidebar,
-.md-nav {
-  background: var(--lm-bg);
-}
+/* ----------------- Links ----------------- */
+/* Force high-contrast links everywhere (no “too dark” issue) */
+.md-typeset a:not(.md-button),
 .md-nav__link,
-.md-nav__title {
-  color: var(--lm-light);
+.md-tabs__link {
+  color: var(--lr-light) !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(241,246,249,.28);
 }
-.md-nav__link--active {
-  font-weight: 600;
-  color: var(--lm-mid);
+.md-typeset a:not(.md-button):hover,
+.md-nav__link:hover,
+.md-tabs__link:hover {
+  border-bottom-color: rgba(241,246,249,.6);
 }
 
-/* Buttons */
-.md-button,
-.btn {
+/* ----------------- Buttons ----------------- */
+/* Make sure buttons never flash white by defining all states */
+a.md-button, .md-button, .btn {
   display: inline-block;
   padding: .55rem .9rem;
   border-radius: .6rem;
-  border: 1px solid var(--md-border-color);
-  background: var(--lm-slate);
-  color: var(--lm-light) !important;
-  text-decoration: none;
-  transition: background .2s ease, color .2s ease, border-color .2s ease;
+  background: var(--lr-slate) !important;
+  color: var(--lr-light) !important;
+  border: 1px solid var(--md-border-color) !important;
+  box-shadow: none;
+  transition: background .15s ease, border-color .15s ease, transform .02s ease;
 }
-.md-button:hover,
-.btn:hover {
-  background: var(--md-primary-fg-color--dark);
-  border-color: var(--md-primary-fg-color--dark);
+a.md-button:link, a.md-button:visited,
+.md-button:link, .md-button:visited,
+.btn:link, .btn:visited {
+  background: var(--lr-slate) !important;
+  color: var(--lr-light) !important;
+  border-color: var(--md-border-color) !important;
 }
+a.md-button:hover, .md-button:hover, .btn:hover {
+  background: var(--md-primary-fg-color--dark) !important;
+  border-color: var(--md-primary-fg-color--dark) !important;
+}
+a.md-button:active, .md-button:active, .btn:active { transform: scale(.98); }
 
-/* Fix for "white until hover" bug */
-.md-button:visited,
-.btn:visited {
-  color: var(--lm-light) !important;
-  background: var(--lm-slate) !important;
-}
+/* If you made a header action button, keep the same styling next to search */
+.md-header__actions .md-button { margin-left: .5rem; }
 
-/* Code blocks */
+/* ----------------- Code ----------------- */
 .md-typeset code,
 .md-typeset pre code {
   background: var(--md-code-bg-color);
-  color: var(--lm-light);
+  color: var(--lr-light);
   border-radius: .45rem;
-  padding: .15em .4em;
+  padding: .15em .45em;
 }
 .md-typeset pre {
   background: var(--md-code-bg-color);
@@ -97,50 +97,49 @@
   border-radius: .6rem;
   overflow-x: auto;
 }
+/* Syntax colors tuned for dark */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn { color: #C586C0; }
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .s1, .highlight .s2 { color: #CE9178; }
+.highlight .nf, .highlight .nt { color: #9CDCFE; }
+.highlight .c, .highlight .cm, .highlight .c1 { color: #6A9955; font-style: italic; }
+.highlight .m, .highlight .mi, .highlight .mf { color: #B5CEA8; }
 
-/* Admonitions */
+/* ----------------- Admonitions / tables / quotes ----------------- */
 .md-typeset .admonition,
 .md-typeset details {
-  background: #1d212a;
+  background: #1B1E25;
   border: 1px solid var(--md-border-color);
   border-radius: .6rem;
 }
 .md-typeset .admonition > .admonition-title {
-  background: #222632;
-  color: var(--lm-light);
+  background: #202532;
   border-bottom: 1px solid var(--md-border-color);
 }
-
-/* Blockquotes */
-.md-typeset blockquote {
-  border-left: 4px solid var(--lm-slate);
-  color: var(--lm-light);
-  background: rgba(57,72,103,.15);
-  padding: .5rem 1rem;
-  border-radius: .3rem;
-}
-
-/* Tables */
 .md-typeset table:not([class]) {
-  background: #1d212a;
+  background: #1B1E25;
   border: 1px solid var(--md-border-color);
   border-radius: .6rem;
   overflow: hidden;
 }
 .md-typeset table:not([class]) th,
-.md-typeset table:not([class]) td {
-  border-color: var(--md-border-color);
-}
-.md-typeset table:not([class]) tr:nth-child(2n) {
-  background: rgba(57,72,103,.08);
+.md-typeset table:not([class]) td { border-color: var(--md-border-color); }
+.md-typeset table:not([class]) tr:nth-child(2n) { background: rgba(57,72,103,.10); }
+.md-typeset blockquote {
+  border-left: 4px solid var(--lr-slate);
+  background: rgba(57,72,103,.16);
+  color: var(--lr-light);
+  padding: .5rem 1rem;
+  border-radius: .3rem;
 }
 
-/* Search */
+/* ----------------- Search ----------------- */
 .md-search__input {
-  background: #1d212a;
-  color: var(--lm-light);
+  background: #1B1E25;
+  color: var(--lr-light);
   border: 1px solid var(--md-border-color);
 }
-.md-search-result__meta {
-  color: var(--lm-mid);
-}
+.md-search-result__meta { color: var(--lr-mid); }
+
+/* Accessibility: clear focus */
+:focus-visible { outline: 2px solid var(--lr-slate); outline-offset: 2px; }
+::selection { background: rgba(241,246,249,.16); }
