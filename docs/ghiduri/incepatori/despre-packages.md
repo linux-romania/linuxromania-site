@@ -29,7 +29,7 @@ Fiecare familie de distribuții are propriul tip de pachete și un manager de pa
 
 ---
 
-## AUR (Arch User Repository)
+### AUR (Arch User Repository)
 
 - Repozitoriu comunitar pentru Arch și derivate.  
 - Conține mii de aplicații și scripturi create de comunitate.  
@@ -37,7 +37,7 @@ Fiecare familie de distribuții are propriul tip de pachete și un manager de pa
 
 ---
 
-# Managere universale
+## Managere universale
 
 Acestea funcționează pe aproape orice distribuție, indiferent de pachetele native:  
 - **Flatpak** – cel mai popular sistem universal, găzduit pe Flathub.  
@@ -46,7 +46,7 @@ Acestea funcționează pe aproape orice distribuție, indiferent de pachetele na
 
 ---
 
-# Concluzie
+## Concluzie
 
 - **.deb / APT** → Debian, Ubuntu și derivate.  
 - **.rpm / DNF** → Fedora, openSUSE și derivate.  
