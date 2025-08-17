@@ -37,10 +37,11 @@ nav:
       - Despre pachete:
           - Prezentare: ghiduri/incepatori/despre-packages.md
           - Comenzi de bază:
-              - Introducere: ghiduri/incepatori/comenzi-basic/index.md
-              - Ubuntu/Debian: ghiduri/incepatori/comenzi-basic/ubuntu.md
-              - Fedora/RHEL: ghiduri/incepatori/comenzi-basic/fedora.md
+              - Ubuntu/Debian: ghiduri/incepatori/comenzi-basic/debian.md
+              - Fedora: ghiduri/incepatori/comenzi-basic/fedora.md
+              - openSUSE: ghiduri/incepatori/comenzi-basic/opensuse.md
               - Arch: ghiduri/incepatori/comenzi-basic/arch.md
+              - Universale: ghiduri/incepatori/comenzi-basic/universale.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
   - Forum: https://forum.linuxromania.eu
 
