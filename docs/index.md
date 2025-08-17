@@ -16,10 +16,9 @@ Dacă ai o problemă, forumul e primul loc în care primești răspuns.
 
 ## Noutăți & status
 
-> Informații scurte și utile. Doar când contează.
+> Informații scurte și utile.
 
 - **16 aug 2025** — [Arhive Arch: întreruperi pe unele mirror-uri](stiri/2025-08-16-arch-mirror-outage.md)
-- **Ghid nou** — [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
 
 [Vezi toate știrile »](stiri/index.md)
 
@@ -27,7 +26,7 @@ Dacă ai o problemă, forumul e primul loc în care primești răspuns.
 
 ## Ghiduri populare
 
-- [Cum aleg o distribuție](ghiduri/incepatori/alege-distributia.md)
-- [Instalare Linux Mint](ghiduri/incepatori/instalare-mint.md)
-- [Ce faci după instalare](ghiduri/incepatori/dupa-instalare.md)
-- [Aplicații recomandate](ghiduri/aplicatii/recomandate.md)
+- [Cum aleg o distribuție?](ghiduri/incepatori/alege-distributia.md)
+- [Cum creez un stick cu Linux?](ghiduri/incepatori/usb-bootabil.md)
+- [Ce bootez de pe un stick cu Linux?](ghiduri/incepatori/booteaza-de-pe-stick.md)
+- [Ce sunt pachetele de pe Linux?](ghiduri/incepatori/despre-packages.md)
