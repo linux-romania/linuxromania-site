@@ -5,38 +5,38 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 
 ---
 
-## Debian 
+## **Debian**
 
 - Una dintre cele mai vechi distribuții, lansată în 1993.  
 - Punctul forte e stabilitatea – pachetele sunt testate temeinic, dar ajung cu întârziere.  
 - Folosită mai ales pe servere, dar există și variante desktop.  
 
-**Exemple:**  
+Exemple:  
 - [Debian Stable](https://www.debian.org/) – baza pe care se sprijină multe alte distro-uri.  
 - [MX Linux](https://mxlinux.org/) – aduce un Debian mai prietenos, cu configuratoare grafice.  
 
 ---
 
-## Ubuntu (derivat din Debian)
+## **Ubuntu (derivat din Debian)**
 
 - Gândit să fie mai accesibil decât Debian.  
 - Are suport comercial prin Canonical și o mulțime de variante oficiale.  
 - Comunitate foarte mare, ceea ce îl face o alegere populară pentru începători.  
 
-**Exemple:**  
+Exemple: 
 - [Ubuntu Desktop](https://ubuntu.com/desktop) – varianta standard, cu GNOME.  
 - [Kubuntu](https://kubuntu.org/) / [Xubuntu](https://xubuntu.org/) / [Lubuntu](https://lubuntu.me/) – aceleași baze, dar cu interfețe diferite.  
 - [Linux Mint](https://linuxmint.com/) – derivat din Ubuntu, extrem de popular printre cei care vin din Windows.  
 
 ---
 
-## Fedora
+## **Fedora**
 
 - Sponsorizată de Red Hat, e practic terenul de test pentru tehnologiile care ajung ulterior în RHEL.  
 - Update-uri rapide, cicluri de ~6 luni, software foarte recent.  
 - Comunitate mare, bun pentru începători.  
 
-**Exemple:**  
+Exemple:  
 - [Fedora Workstation](https://fedoraproject.org/workstation/) – desktop clasic cu GNOME.  
 - [Fedora Spins](https://spins.fedoraproject.org/) – variante cu KDE Plasma, XFCE etc.  
 - [Fedora Silverblue](https://silverblue.fedoraproject.org/) – sistem imutabil, bazat pe OSTree, popular printre developeri.  
@@ -44,7 +44,7 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 
 ---
 
-## openSUSE
+## **openSUSE**
 
 - Distribuție germană, susținută de comunitate și de SUSE.  
 - Folosește pachete `.rpm`, dar manager-ul de pachete e **Zypper**.  
@@ -55,13 +55,13 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 
 
 ---
-## Arch Linux și derivate
+## **Arch Linux și derivate**
 
 - Nu are instalator grafic – pornești de la zero și construiești exact ce vrei.  
 - Rolling release: pachetele sunt mereu la zi.  
 - Documentația (Arch Wiki) e una dintre cele mai bune resurse Linux.  
 
-**Exemple:**  
+Exemple: 
 - [Arch Linux](https://archlinux.org/) – varianta pură, manuală, pentru cei care vor control total.  
 - [Manjaro](https://manjaro.org/) – Arch cu instalator grafic și update-uri întârziate câteva săptămâni pentru stabilitate.  
 - [EndeavourOS](https://endeavouros.com/) – foarte apropiat de Arch, dar cu instalare mult mai simplă.  
@@ -69,7 +69,7 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 
 ---
 
-# Cele mai bune pentru începători
+# **Cele mai bune pentru începători**
 
 - [**Linux Mint**](https://linuxmint.com/) – foarte ușor de folosit, comunitate mare și prietenoasă.  
 - [**Ubuntu**](https://ubuntu.com/desktop) – ușor de folosit, suportat de aproape orice aplicație.  
