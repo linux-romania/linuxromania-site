@@ -1,4 +1,4 @@
-# Cele mai importante familii de distribuții Linux
+# Cele mai importante distribuții Linux
 
 Există sute de distribuții Linux, dar majoritatea se învârt în jurul câtorva familii mari.  
 Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.  
