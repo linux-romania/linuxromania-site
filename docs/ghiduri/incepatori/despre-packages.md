@@ -37,7 +37,7 @@ Fiecare familie de distribuții are propriul tip de pachete și un manager de pa
 
 ---
 
-## Managere universale
+# Managere universale
 
 Acestea funcționează pe aproape orice distribuție, indiferent de pachetele native:  
 - **Flatpak** – cel mai popular sistem universal, găzduit pe Flathub.  
