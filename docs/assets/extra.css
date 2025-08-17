@@ -40,16 +40,26 @@
 }
 
 /* ----------------- Links ----------------- */
-/* Force high-contrast links everywhere (no “too dark” issue) */
-.md-typeset a:not(.md-button),
+/* Content links: visible + underlined */
+.md-typeset a:not(.md-button) {
+  color: var(--lr-light) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.md-typeset a:not(.md-button):hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* Nav + header links: clean, no underline */
 .md-nav__link,
 .md-tabs__link {
   color: var(--lr-light) !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-.md-typeset a:not(.md-button):hover,
 .md-nav__link:hover,
 .md-tabs__link:hover {
+  color: var(--md-primary-fg-color);
 }
 
 /* ----------------- Buttons ----------------- */
@@ -61,21 +71,17 @@ a.md-button, .md-button, .btn {
   color: #16181D !important;        /* dark text */
   border: 1px solid rgba(0,0,0,.15) !important;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: background .15s ease, border-color .15s ease, transform .02s ease;
 }
-
 a.md-button:hover, .md-button:hover, .btn:hover {
   background: #e0e6ea !important;   /* slightly darker on hover */
   border-color: #cfd6db !important;
 }
-
 a.md-button:active, .md-button:active, .btn:active {
   transform: scale(.98);
 }
-
-
-/* If you made a header action button, keep the same styling next to search */
+/* Header action buttons */
 .md-header__actions .md-button { margin-left: .5rem; }
 
 /* ----------------- Code ----------------- */
@@ -134,15 +140,8 @@ a.md-button:active, .md-button:active, .btn:active {
   border: 1px solid var(--md-border-color);
 }
 .md-search-result__meta { color: var(--lr-mid); }
-
-/* Search icon */
-.md-search__icon {
-  color: #F1F6F9 !important;
-}
+.md-search__icon { color: #F1F6F9 !important; }
 
 /* Accessibility: clear focus */
 :focus-visible { outline: 2px solid var(--lr-slate); outline-offset: 2px; }
 ::selection { background: rgba(241,246,249,.16); }
-
-
-
