@@ -34,7 +34,13 @@ nav:
       - Alege distribuția: ghiduri/incepatori/alege-distributia.md
       - Cum sa faci un stick USB cu Linux: ghiduri/incepatori/usb-bootabil.md
       - Cum sa bootezi de pe un stick USB: ghiduri/incepatori/booteaza-de-pe-stick.md
-      - Despre diferitele pachete (packages) de pe Linux: ghiduri/incepatori/despre-packages.md
+      - Despre pachete:
+          - Prezentare: ghiduri/incepatori/despre-packages.md
+          - Comenzi de bază:
+              - Introducere: ghiduri/incepatori/comenzi-basic/index.md
+              - Ubuntu/Debian: ghiduri/incepatori/comenzi-basic/ubuntu.md
+              - Fedora/RHEL: ghiduri/incepatori/comenzi-basic/fedora.md
+              - Arch: ghiduri/incepatori/comenzi-basic/arch.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
   - Forum: https://forum.linuxromania.eu
 
