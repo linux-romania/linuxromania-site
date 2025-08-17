@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://linuxromania.eu/ghiduri/incepatori/dupa-instalare/">
+        <link rel="canonical" href="https://linuxromania.eu/ghiduri/incepatori/usb-bootabil/">
       
       
-        <link rel="prev" href="../instalare-mint/">
+        <link rel="prev" href="../alege-distributia/">
       
       
-        <link rel="next" href="../../aplicatii/recomandate/">
+        <link rel="next" href="../booteaza-de-pe-stick/">
       
       
       <link rel="icon" href="../../../assets/linuxromania.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>După instalare - Linux România</title>
+        <title>Cum sa faci un stick USB cu Linux - Linux România</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dupa-instalare" class="md-skip">
+        <a href="#cum-sa-pui-un-iso-linux-pe-un-stick-usb" class="md-skip">
           Sari la conținut
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              După instalare
+              Cum sa faci un stick USB cu Linux
             
           </span>
         </div>
@@ -218,7 +218,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../endeavouros/" class="md-tabs__link">
+        <a href="../alege-distributia/" class="md-tabs__link">
           
   
   
@@ -399,58 +399,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../endeavouros/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Endeavouros
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../alege-distributia/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Alege distribuția
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../instalare-mint/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Instalare Linux Mint
     
   </span>
   
@@ -477,18 +431,114 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cum sa faci un stick USB cu Linux
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    După instalare
+    Cum sa faci un stick USB cu Linux
     
   </span>
   
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Cuprins
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pe-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pe Windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pe-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pe Linux
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../booteaza-de-pe-stick/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cum sa bootezi de pe un stick USB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../despre-packages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Despre diferitele pachete (packages) de pe Linux
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -565,6 +615,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Cuprins
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pe-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pe Windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pe-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pe Linux
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -579,12 +655,45 @@
 
 
 
-<h1 id="dupa-instalare">După instalare</h1>
-<ul>
-<li><code>sudo apt update &amp;&amp; sudo apt upgrade -y</code></li>
-<li>Activează Flatpak + Flathub</li>
-<li>Instalează codec-uri și drivere video</li>
-</ul>
+<h1 id="cum-sa-pui-un-iso-linux-pe-un-stick-usb">Cum să pui un ISO Linux pe un stick USB</h1>
+<p>Există două metode populare: cu <strong>Rufus</strong> pe Windows sau cu comanda <strong>dd</strong> pe Linux.  </p>
+<hr />
+<h2 id="pe-windows">Pe Windows</h2>
+<ol>
+<li>Descarcă Rufus: <a href="https://rufus.ie/en/">rufus.ie</a>  </li>
+<li>Deschide aplicația și verifică să fie selectat stick-ul USB.  </li>
+<li>La <strong>Boot selection</strong>, apasă pe <strong>SELECT</strong> și alege fișierul <code>.iso</code> descărcat.  </li>
+<li>Dacă apare un mesaj cu <em>ISOHybrid image</em>, lasă opțiunea recomandată.  </li>
+<li>La <strong>Partition scheme</strong>:  </li>
+<li><strong>GPT</strong> pentru sisteme moderne (UEFI).  </li>
+<li><strong>MBR</strong> pentru sisteme mai vechi (BIOS).  </li>
+<li>Restul setărilor le poți lăsa cum sunt.  </li>
+<li>Apasă <strong>START</strong> și așteaptă să termine.  </li>
+</ol>
+<hr />
+<h2 id="pe-linux">Pe Linux</h2>
+<p>Poți folosi comanda <code>dd</code>. Ai grijă: șterge complet discul pe care scrii.  </p>
+<ol>
+<li>Află ce nume are stick-ul USB:  </li>
+</ol>
+<div class="highlight"><pre><span></span><code>lsblk
+</code></pre></div>
+<p>Uită-te la dimensiune și identifică stick-ul. <strong>Atenție</strong>: nu confunda cu SSD-ul sau alte discuri.  </p>
+<p>Exemplu de rezultat:  </p>
+<div class="highlight"><pre><span></span><code>sdc
+├─sdc1
+└─sdc2
+</code></pre></div>
+<p>În cazul ăsta, stick-ul e <code>/dev/sdc</code>. (Folosește doar <code>sdc</code>, fără numerele de la partiții.)  </p>
+<ol>
+<li>Rulează comanda:  </li>
+</ol>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dd<span class="w"> </span><span class="k">if</span><span class="o">=</span>/home/USER/Downloads/nume.iso<span class="w"> </span><span class="nv">of</span><span class="o">=</span>/dev/sdX<span class="w"> </span><span class="nv">bs</span><span class="o">=</span>4M<span class="w"> </span><span class="nv">status</span><span class="o">=</span>progress<span class="w"> </span><span class="nv">oflag</span><span class="o">=</span>sync
+</code></pre></div>
+<p>Înlocuiește:<br />
+   - <code>USER</code> cu numele tău de utilizator.<br />
+   - <code>nume.iso</code> cu numele fișierului descărcat.<br />
+   - <code>sdX</code> cu stick-ul tău (ex. <code>sdc</code>).  </p>
 
 
 

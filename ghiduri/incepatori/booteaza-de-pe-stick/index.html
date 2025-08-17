@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://linuxromania.eu/ghiduri/incepatori/endeavouros/">
+        <link rel="canonical" href="https://linuxromania.eu/ghiduri/incepatori/booteaza-de-pe-stick/">
       
       
-        <link rel="prev" href="../../../stiri/">
+        <link rel="prev" href="../usb-bootabil/">
       
       
-        <link rel="next" href="../alege-distributia/">
+        <link rel="next" href="../despre-packages/">
       
       
       <link rel="icon" href="../../../assets/linuxromania.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Endeavouros - Linux România</title>
+        <title>Cum sa bootezi de pe un stick USB - Linux România</title>
       
     
     
@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cum-sa-bootezi-de-pe-stickul-usb" class="md-skip">
+          Sari la conținut
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -96,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Endeavouros
+              Cum sa bootezi de pe un stick USB
             
           </span>
         </div>
@@ -213,7 +218,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../alege-distributia/" class="md-tabs__link">
           
   
   
@@ -391,37 +396,6 @@
                 
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    Endeavouros
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
   
   
     <li class="md-nav__item">
@@ -448,12 +422,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../instalare-mint/" class="md-nav__link">
+      <a href="../usb-bootabil/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Instalare Linux Mint
+    Cum sa faci un stick USB cu Linux
     
   </span>
   
@@ -468,15 +442,107 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../dupa-instalare/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cum sa bootezi de pe un stick USB
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    După instalare
+    Cum sa bootezi de pe un stick USB
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Cuprins
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metoda-1-boot-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metoda 1: Boot Menu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metoda-2-biosuefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metoda 2: BIOS/UEFI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ce-urmeaza-dupa-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ce urmează după boot
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../despre-packages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Despre diferitele pachete (packages) de pe Linux
     
   </span>
   
@@ -555,6 +621,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Cuprins
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metoda-1-boot-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metoda 1: Boot Menu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metoda-2-biosuefi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metoda 2: BIOS/UEFI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ce-urmeaza-dupa-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ce urmează după boot
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -570,9 +673,34 @@
 
 
 
-  <h1>Endeavouros</h1>
-
-
+<h1 id="cum-sa-bootezi-de-pe-stickul-usb">Cum să bootezi de pe stickul USB</h1>
+<p>După ce ai stick-ul USB pregătit și introdus în PC sau laptop, urmează pașii de mai jos pentru a porni sistemul de pe el.  </p>
+<hr />
+<h2 id="metoda-1-boot-menu">Metoda 1: Boot Menu</h2>
+<ol>
+<li>Repornește calculatorul.  </li>
+<li>La pornire, apare pentru o secundă un <em>splash screen</em> (logo-ul producătorului).  </li>
+<li>În colțul de jos (de obicei stânga) scrie ce buton trebuie apăsat pentru a intra în <strong>Boot Menu</strong>.  </li>
+<li>Taste frecvente: <strong>F11</strong>, <strong>F8</strong>, <strong>F2</strong>.  </li>
+<li>În meniul de boot, selectează stick-ul USB ca dispozitiv de pornire.  </li>
+</ol>
+<hr />
+<h2 id="metoda-2-biosuefi">Metoda 2: BIOS/UEFI</h2>
+<p>Dacă nu apare nimic legat de Boot Menu:  </p>
+<ol>
+<li>Repornește calculatorul și intră în <strong>BIOS/UEFI</strong>.  </li>
+<li>Taste frecvente: <strong>DEL</strong> sau <strong>F12</strong> (în funcție de placă de bază sau laptop).  </li>
+<li>Mergi la tab-ul <strong>Boot</strong>.  </li>
+<li>Aici poți:  </li>
+<li>Seta stick-ul USB ca dispozitiv principal de boot.  </li>
+<li>Sau schimba ordinea de boot astfel încât stick-ul USB să fie primul.  </li>
+<li>Salvează modificările și repornește sistemul.  </li>
+</ol>
+<hr />
+<h2 id="ce-urmeaza-dupa-boot">Ce urmează după boot</h2>
+<p>Dacă totul a mers bine, majoritatea distribuțiilor Linux vor porni într-o <strong>sesiune live</strong>.<br />
+Aici poți să testezi distro-ul direct de pe stick, fără să instalezi nimic pe disk.  </p>
+<p>Când ești gata să îl instalezi, caută pe desktop sau în meniu o icoană cu textul <strong>„Start Install”</strong> sau <strong>„Install Linux”</strong> și urmează pașii de instalare.</p>
 
 
 
