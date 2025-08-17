@@ -28,7 +28,7 @@ Nu sunt verificate oficial de echipa Arch, deci există riscul să conțină cod
 #### Cum verifici un pachet AUR
 
 1. Intră pe pagina pachetului (ex: [Spotify](https://aur.archlinux.org/packages/spotify)).  
-2. În partea dreaptă, apasă pe **[View PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=spotify)**.  
+2. În partea dreaptă, apasă pe [View PKGBUILD](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=spotify).  
 3. Se va deschide fișierul PKGBUILD – un script care arată exact ce face pachetul.  
 
 Nu e nevoie să înțelegi tot codul, dar e important să verifici **link-urile** de unde descarcă fișierele.  
