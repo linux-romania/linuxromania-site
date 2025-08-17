@@ -23,7 +23,7 @@ Exemple:
 - Are suport comercial prin Canonical și o mulțime de variante oficiale.  
 - Comunitate foarte mare, ceea ce îl face o alegere populară pentru începători.  
 
-Exemple: 
+Exemple:  
 - [Ubuntu Desktop](https://ubuntu.com/desktop) – varianta standard, cu GNOME.  
 - [Kubuntu](https://kubuntu.org/) / [Xubuntu](https://xubuntu.org/) / [Lubuntu](https://lubuntu.me/) – aceleași baze, dar cu interfețe diferite.  
 - [Linux Mint](https://linuxmint.com/) – derivat din Ubuntu, extrem de popular printre cei care vin din Windows.  
