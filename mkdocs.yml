@@ -31,10 +31,10 @@ nav:
   - Acasă: index.md
   - Știri: stiri/index.md
   - Ghiduri:
-      - Endeavouros : ghiduri/incepatori/endeavouros.md
       - Alege distribuția: ghiduri/incepatori/alege-distributia.md
-      - Instalare Linux Mint: ghiduri/incepatori/instalare-mint.md
-      - După instalare: ghiduri/incepatori/dupa-instalare.md
+      - Cum sa faci un stick USB cu Linux: ghiduri/incepatori/usb-bootabil.md
+      - Cum sa bootezi de pe un stick USB: ghiduri/incepatori/booteaza-de-pe-stick.md
+      - Despre diferitele pachete (packages) de pe Linux: ghiduri/incepatori/despre-packages.md
   - Aplicații: ghiduri/aplicatii/recomandate.md
   - Forum: https://forum.linuxromania.eu
 
