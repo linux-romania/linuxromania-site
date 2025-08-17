@@ -1,4 +1,4 @@
-# Cele mai importante distribuții Linux
+# Cele mai importante familii de distribuții Linux
 
 Există sute de distribuții Linux, dar majoritatea se învârt în jurul câtorva familii mari.  
 Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.  
@@ -12,8 +12,8 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 - Folosită mai ales pe servere, dar există și variante desktop.  
 
 **Exemple:**  
-- [**Debian Stable**](https://www.debian.org/) – baza pe care se sprijină multe alte distro-uri.  
-- [**MX Linux**](https://mxlinux.org/) – aduce un Debian mai prietenos, cu configuratoare grafice.  
+- [Debian Stable](https://www.debian.org/) – baza pe care se sprijină multe alte distro-uri.  
+- [MX Linux](https://mxlinux.org/) – aduce un Debian mai prietenos, cu configuratoare grafice.  
 
 ---
 
@@ -24,9 +24,9 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 - Comunitate foarte mare, ceea ce îl face o alegere populară pentru începători.  
 
 **Exemple:**  
-- [**Ubuntu Desktop**](https://ubuntu.com/desktop) – varianta standard, cu GNOME.  
-- [**Kubuntu**](https://kubuntu.org/) / [**Xubuntu**](https://xubuntu.org/) / [**Lubuntu**](https://lubuntu.me/) – aceleași baze, dar cu interfețe diferite.  
-- [**Linux Mint**](https://linuxmint.com/) – derivat din Ubuntu, extrem de popular printre cei care vin din Windows.  
+- [Ubuntu Desktop](https://ubuntu.com/desktop) – varianta standard, cu GNOME.  
+- [Kubuntu](https://kubuntu.org/) / [Xubuntu](https://xubuntu.org/) / [Lubuntu](https://lubuntu.me/) – aceleași baze, dar cu interfețe diferite.  
+- [Linux Mint](https://linuxmint.com/) – derivat din Ubuntu, extrem de popular printre cei care vin din Windows.  
 
 ---
 
@@ -37,10 +37,10 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 - Comunitate mare, bun pentru începători.  
 
 **Exemple:**  
-- [**Fedora Workstation**](https://fedoraproject.org/workstation/) – desktop clasic cu GNOME.  
-- [**Fedora Spins**](https://spins.fedoraproject.org/) – variante cu KDE Plasma, XFCE etc.  
-- [**Fedora Silverblue**](https://silverblue.fedoraproject.org/) – sistem imutabil, bazat pe OSTree, popular printre developeri.  
-- [**Bazzite**](https://bazzite.gg/) – derivat din Silverblue, dar optimizat pentru gaming și desktop modern, cea mai bună alternativă pentru SteamOS (vine cu drivere, tool-uri și optimizări incluse).  
+- [Fedora Workstation](https://fedoraproject.org/workstation/) – desktop clasic cu GNOME.  
+- [Fedora Spins](https://spins.fedoraproject.org/) – variante cu KDE Plasma, XFCE etc.  
+- [Fedora Silverblue](https://silverblue.fedoraproject.org/) – sistem imutabil, bazat pe OSTree, popular printre developeri.  
+- [Bazzite](https://bazzite.gg/) – derivat din Silverblue, dar optimizat pentru gaming și desktop modern, cea mai bună alternativă pentru SteamOS (vine cu drivere, tool-uri și optimizări incluse).  
 
 ---
 
@@ -50,8 +50,8 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 - Folosește pachete `.rpm`, dar manager-ul de pachete e **Zypper**.  
 - Include unealta de configurare **YaST**, foarte puternică pentru administrarea sistemului.  
 - Vine în două variante:  
-  - [**openSUSE Leap**](https://get.opensuse.org/leap/) – stabil, cu update-uri regulate (similar cu Debian Stable).  
-  - [**openSUSE Tumbleweed**](https://get.opensuse.org/tumbleweed/) – rolling release, mereu la zi, comparabil cu Arch sau Fedora Rawhide.  
+  - [openSUSE Leap](https://get.opensuse.org/leap/) – stabil, cu update-uri regulate (similar cu Debian Stable).  
+  - [openSUSE Tumbleweed](https://get.opensuse.org/tumbleweed/) – rolling release, mereu la zi, comparabil cu Arch sau Fedora Rawhide.  
 
 
 ---
@@ -62,10 +62,10 @@ Aici sunt cele mai importante, cu exemplele cele mai folosite în prezent.
 - Documentația (Arch Wiki) e una dintre cele mai bune resurse Linux.  
 
 **Exemple:**  
-- [**Arch Linux**](https://archlinux.org/) – varianta pură, manuală, pentru cei care vor control total.  
-- [**Manjaro**](https://manjaro.org/) – Arch cu instalator grafic și update-uri întârziate câteva săptămâni pentru stabilitate.  
-- [**EndeavourOS**](https://endeavouros.com/) – foarte apropiat de Arch, dar cu instalare mult mai simplă.  
-- [**CachyOS**](https://cachyos.org/) – bazat pe Arch, dar cu kernel optimizat pentru performanță, gaming și compilări mai rapide.  
+- [Arch Linux](https://archlinux.org/) – varianta pură, manuală, pentru cei care vor control total.  
+- [Manjaro](https://manjaro.org/) – Arch cu instalator grafic și update-uri întârziate câteva săptămâni pentru stabilitate.  
+- [EndeavourOS](https://endeavouros.com/) – foarte apropiat de Arch, dar cu instalare mult mai simplă.  
+- [CachyOS](https://cachyos.org/) – bazat pe Arch, dar cu kernel optimizat pentru performanță, gaming și compilări mai rapide.  
 
 ---
 
