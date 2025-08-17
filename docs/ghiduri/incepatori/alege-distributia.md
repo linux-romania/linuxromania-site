@@ -61,7 +61,7 @@ Exemple:
 - Rolling release: pachetele sunt mereu la zi.  
 - Documentația (Arch Wiki) e una dintre cele mai bune resurse Linux.  
 
-Exemple: 
+Exemple:  
 - [Arch Linux](https://archlinux.org/) – varianta pură, manuală, pentru cei care vor control total.  
 - [Manjaro](https://manjaro.org/) – Arch cu instalator grafic și update-uri întârziate câteva săptămâni pentru stabilitate.  
 - [EndeavourOS](https://endeavouros.com/) – foarte apropiat de Arch, dar cu instalare mult mai simplă.  
