@@ -20,7 +20,7 @@ Problemele veneau în special de la driverele vechi open source (**Nouveau**) ș
 
 ### Drivere NVIDIA open (Open Kernel Modules)
 - Publicate în 2022, menținute oficial de NVIDIA.  
-- Se integrează direct în kernel și funcționează foarte bine pe generațiile recente (Ampere, Ada Lovelace).  
+- Se integrează direct în kernel și funcționează foarte bine pe generațiile recente (RTX 2000+).  
 - În multe cazuri oferă stabilitate și performanță mai bună decât driverele proprietare.  
 - Recomandate pentru plăci moderne.  
 
