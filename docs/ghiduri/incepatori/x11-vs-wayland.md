@@ -11,8 +11,7 @@ Mult timp standardul a fost **X11** (X.Org Server), dar în prezent direcția es
 - Arhitectură complicată, cu multe extensii adăugate în timp.  
 - Puncte forte: compatibilitate excelentă cu aproape toate aplicațiile.  
 - Probleme majore:  
-  - lipsă de izolare între aplicații (oricare poate accesa informații din altă fereastră),  
-  - consum mai mare de resurse,  
+  - lipsă de izolare între aplicații (oricare poate accesa informații din altă fereastră),   
   - performanță limitată pe hardware și funcții moderne.  
 
 ---
