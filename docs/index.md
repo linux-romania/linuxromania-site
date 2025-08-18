@@ -9,7 +9,7 @@ hide:
 Ghiduri, știri și ajutor în limba română pentru Linux.  
 Dacă ai o problemă, forumul e primul loc în care primești răspuns.
 
-[Începe cu ghidurile](ghiduri/incepatori/alege-distributia/){ .md-button .md-button--primary }
+[Începe cu ghidurile](ghiduri/){ .md-button .md-button--primary }
 [Deschide forumul](https://forum.linuxromania.eu){ .md-button }
 
 ---
