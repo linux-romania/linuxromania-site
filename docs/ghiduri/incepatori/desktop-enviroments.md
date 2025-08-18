@@ -1,104 +1,105 @@
 # Cele mai populare Desktop Environments (DE) pe Linux
 
-Pe Linux, **Desktop Environment (DE)** este componenta care definește cum arată și cum se folosește sistemul grafic: panouri, meniuri, ferestre, aplicații implicite.  
-Există multe DE-uri, dar cele mai răspândite și importante sunt următoarele: **GNOME, KDE Plasma, XFCE, Cinnamon și Hyprland**.  
+Un **Desktop Environment (DE)** definește cum arată și cum interacționezi cu sistemul: panouri, meniuri, ferestre, aplicații implicite.  
+Există multe variante, dar cele mai folosite sunt: **GNOME, KDE Plasma, XFCE, Cinnamon și Hyprland**.  
 
 ---
 
 ## GNOME
 
-- Implicit în multe distribuții populare (Ubuntu, Fedora).  
-- Design minimalist și modern, inspirat de workflow-ul de pe macOS.  
-- Folosește **Wayland** ca sesiune principală.  
-- Aplicații proprii, bine integrate și cu interfață unitară.  
+- Implicit în multe distribuții (Ubuntu, Fedora).  
+- Interfață minimalistă și orientată pe workflow simplu.  
+- Rulează în principal pe **Wayland**.  
+- Include aplicații proprii, cu design unitar.  
 
 **Avantaje:**  
-- Interfață curată, ușor de folosit.  
-- Integrare foarte bună cu aplicațiile moderne.  
-- Suport Wayland matur.  
+- Interfață curată și directă.  
+- Integrare bună cu aplicațiile moderne.  
+- Suport Wayland stabil și matur.  
 
 **Dezavantaje:**  
-- Consum de resurse mai ridicat.  
-- Mai puțin configurabil „out of the box” (ai nevoie de extensii pentru personalizare).  
+- Consum de resurse mai mare.  
+- Personalizare limitată fără extensii suplimentare.  
 
 ---
 
 ## KDE Plasma
 
-- Extrem de configurabil – poți ajusta aproape orice aspect.  
-- Seamănă cu Windows ca structură (taskbar, meniu start).  
-- În prezent este unul dintre cele mai rapide și optimizate DE-uri.  
-- Suport Wayland foarte bun în versiunile recente (5.27+, Plasma 6).  
+- Foarte flexibil, permite configurarea în detaliu.  
+- Interfață clasică, apropiată de Windows (taskbar, meniu start).  
+- În versiunile recente este performant și optimizat.  
+- Suport Wayland foarte bun în Plasma 5.27 și Plasma 6.  
 
 **Avantaje:**  
-- Ușor de personalizat.  
-- Performanță bună, în ciuda numărului mare de opțiuni.  
-- Aplicații KDE bogate în funcții.  
+- Grad ridicat de personalizare.  
+- Performanță bună.  
+- Suită de aplicații KDE cu multe funcții.  
 
 **Dezavantaje:**  
-- Poate părea încărcat pentru utilizatorii care vor simplitate.  
-- Unele aplicații KDE pot fi mai grele ca resurse.  
+- Poate părea complex pentru cei care vor simplitate.  
+- Unele aplicații pot consuma mai multe resurse.  
 
 ---
 
 ## XFCE
 
-- DE ușor, foarte stabil, folosit de ani de zile.  
-- Interfață clasică, simplă, cu meniu și panouri.  
-- Suport Wayland foarte slab momentan – se bazează pe X11.  
+- Ușor, stabil și folosit de mult timp.  
+- Interfață clasică, cu panouri și meniu.  
+- Se bazează pe **X11**, suport Wayland aproape inexistent.  
 
 **Avantaje:**  
-- Consum redus de resurse, ideal pentru PC-uri vechi sau laptopuri slabe.  
+- Consum redus de resurse, bun pentru hardware mai slab.  
 - Interfață familiară pentru utilizatorii de Windows.  
-- Foarte stabil și matur.  
+- Stabil și matur.  
 
 **Dezavantaje:**  
-- Design mai învechit.  
-- Dezvoltare mai lentă comparativ cu GNOME sau KDE.  
-- Folosește în principal **X11**, ceea ce îl face mai puțin pregătit pentru viitor.  
+- Design mai simplu și mai puțin modern.  
+- Dezvoltare lentă.  
+- Depinde de X11, ceea ce îl face mai puțin pregătit pentru viitor.  
+
 ---
 
 ## Cinnamon
 
-- Creat de echipa Linux Mint, bazat pe GNOME 3 dar cu interfață clasică.  
-- Seamănă mult cu Windows 7 ca organizare.  
-- Stabil, dar orientat mai mult către utilizatori de Mint.  
-- Suport Wayland foarte limitat.  
+- Creat de echipa Linux Mint, derivat din GNOME 3 dar cu interfață clasică.  
+- Seamănă cu Windows 7 ca organizare.  
+- Stabil, dar gândit în special pentru Linux Mint.  
+- Suport Wayland foarte limitat, funcționează în principal pe X11.  
 
 **Avantaje:**  
-- Ușor de folosit pentru cei care vin din Windows.  
+- Ușor de folosit pentru utilizatorii care vin din Windows.  
 - Interfață familiară și intuitivă.  
 - Stabil și predictibil.  
 
 **Dezavantaje:**  
-- Inovație redusă, rămâne conservator.  
-- Mai puțin portat în afara Mint.
-- Se bazează în principal pe **X11**, cu suport Wayland foarte slab.  
+- Inovație redusă, se menține conservator.  
+- Rareori folosit în afara Mint.  
+- Bazat pe X11, cu suport Wayland minim.  
 
 ---
 
 ## Hyprland (Wayland compositor)
 
-- Nu e un DE clasic, ci un **compositor pentru Wayland** orientat spre tiling window management.  
-- Foarte popular în ultimii ani pentru utilizatorii avansați.  
-- Totul este configurabil prin fișiere text.  
-- Estetic modern, cu efecte și animații.  
+- Nu este un DE complet, ci un **compositor Wayland** cu tiling window management.  
+- Popular printre utilizatorii avansați.  
+- Configurabil prin fișiere text.  
+- Modern vizual, cu efecte și animații.  
 
 **Avantaje:**  
 - Rapid și minimalist.  
-- Suport complet pentru Wayland.  
-- Ideal pentru utilizatori care vor un workflow productiv (tiling).  
+- Suport nativ pentru Wayland.  
+- Bun pentru cei care preferă workflow tiling.  
 
 **Dezavantaje:**  
-- Nu are aplicații proprii, depinzi de ce instalezi separat.  
-- Necesită timp de configurare și cunoștințe mai tehnice.  
+- Nu are aplicații proprii.  
+- Necesită configurare manuală și cunoștințe tehnice.  
 
 ---
 
 # Concluzie
 
-- **GNOME** – modern și simplu, dar mai rigid.  
-- **KDE Plasma** – extrem de configurabil, rapid și complet.  
-- **XFCE** – clasic și ușor, excelent pentru hardware slab.  
-- **Cinnamon** – familiar pentru utilizatorii de Windows, stabil și conservator.  
-- **Hyprland** – pentru cei care vor Wayland, tiling și configurare avansată.  
+- **GNOME** – simplu și modern, dar mai restrictiv.  
+- **KDE Plasma** – foarte configurabil și performant.  
+- **XFCE** – clasic și ușor, bun pentru calculatoare mai slabe.  
+- **Cinnamon** – familiar pentru utilizatorii de Windows, stabil și tradițional.  
+- **Hyprland** – pentru cei care vor Wayland și un mediu tiling configurabil manual.  
