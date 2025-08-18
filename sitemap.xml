@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://linuxromania.eu/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/comunitate/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/aplicatii/recomandate/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/alege-distributia/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/booteaza-de-pe-stick/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/despre-packages/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/usb-bootabil/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://linuxromania.eu/ghiduri/incepatori/x11-vs-wayland/</loc>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/comenzi-basic/arch/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/comenzi-basic/debian/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/comenzi-basic/fedora/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/comenzi-basic/opensuse/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/ghiduri/incepatori/comenzi-basic/universale/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/stiri/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
     <url>
          <loc>https://linuxromania.eu/stiri/2025-08-16-arch-mirror-outage/</loc>
-         <lastmod>2025-08-17</lastmod>
+         <lastmod>2025-08-18</lastmod>
     </url>
 </urlset>
