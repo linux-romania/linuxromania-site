@@ -31,9 +31,11 @@ nav:
   - Acasă: index.md
   - Știri: stiri/index.md
   - Ghiduri:
-      - Alege distribuția: ghiduri/incepatori/alege-distributia.md
       - Cum sa faci un stick USB cu Linux: ghiduri/incepatori/usb-bootabil.md
       - Cum sa bootezi de pe un stick USB: ghiduri/incepatori/booteaza-de-pe-stick.md
+      - Alege distribuția: ghiduri/incepatori/alege-distributia.md
+      - Despre X11 si Wayland: ghiduri/incepatori/x11-vs-wayland.md
+      - Despre Desktop Enviroments (DEs): ghiduri/incepatori/desktop-enviroments.md
       - Despre pachete:
           - Prezentare: ghiduri/incepatori/despre-packages.md
           - Comenzi de bază:
