@@ -1,7 +1,7 @@
 # Cele mai populare sisteme de pachete pe Linux
 
-Una dintre diferențele mari dintre distribuțiile Linux este modul în care gestionează aplicațiile.  
-Fiecare familie de distribuții are propriul tip de pachete și un manager de pachete asociat.  
+Una dintre diferențele importante între distribuțiile Linux este modul în care gestionează aplicațiile.  
+Fiecare familie de distribuții are propriul tip de pachete și manager de pachete asociat.  
 
 ---
 
@@ -9,15 +9,15 @@ Fiecare familie de distribuții are propriul tip de pachete și un manager de pa
 
 - Folosite în Debian, Ubuntu, Linux Mint și derivate.  
 - Manager de pachete: **APT** (`apt`, `apt-get`).  
-- Sunt printre cele mai răspândite datorită popularității Ubuntu.  
+- Printre cele mai răspândite datorită popularității Ubuntu.  
 
 ---
 
 ## Pachete bazate pe **.rpm**
 
 - Folosite în Fedora, Red Hat Enterprise Linux (RHEL), CentOS, openSUSE.  
-- Manager de pachete: **DNF** (în Fedora și RHEL), **Zypper** (în openSUSE).  
-- RHEL și Fedora sunt cunoscute pentru update-uri rapide și stabilitate pe servere.  
+- Manager de pachete: **DNF** (Fedora, RHEL), **Zypper** (openSUSE).  
+- RHEL și Fedora sunt asociate cu stabilitate și update-uri regulate.  
 
 ---
 
@@ -25,23 +25,23 @@ Fiecare familie de distribuții are propriul tip de pachete și un manager de pa
 
 - Folosite în Arch Linux și derivate precum Manjaro, EndeavourOS, CachyOS.  
 - Manager de pachete: **pacman**.  
-- Arch oferă pachete mereu la zi (rolling release).  
+- Rolling release: pachetele sunt mereu actualizate.  
 
 ---
 
 ### AUR (Arch User Repository)
 
 - Repozitoriu comunitar pentru Arch și derivate.  
-- Conține mii de aplicații și scripturi create de comunitate.  
-- Instalarea se face cu ajutorul unor *AUR helpers* precum `yay` sau `paru`.  
+- Include mii de aplicații și scripturi întreținute de comunitate.  
+- Se folosește împreună cu *AUR helpers* precum `yay` sau `paru`.  
 
 ---
 
-## Managere universale
+## Manageri universali
 
 Acestea funcționează pe aproape orice distribuție, indiferent de pachetele native:  
-- **Flatpak** – cel mai popular sistem universal, găzduit pe Flathub.  
-- **Snap** – creat de Canonical (Ubuntu).  
+- **Flatpak** – sistem universal popular, cu aplicații găzduite pe Flathub.  
+- **Snap** – dezvoltat de Canonical (Ubuntu).  
 - **AppImage** – aplicații portabile care nu necesită instalare.  
 
 ---
@@ -49,6 +49,6 @@ Acestea funcționează pe aproape orice distribuție, indiferent de pachetele na
 ## Concluzie
 
 - **.deb / APT** → Debian, Ubuntu și derivate.  
-- **.rpm / DNF** → Fedora, openSUSE și derivate.  
+- **.rpm / DNF / Zypper** → Fedora, openSUSE și derivate.  
 - **pacman / AUR** → Arch Linux și derivate.  
-- **Flatpak, Snap, AppImage** → universale, merg pe orice distro.  
+- **Flatpak, Snap, AppImage** → universale, funcționează pe orice distribuție.  
