@@ -10,8 +10,8 @@
 - [Despre Nvidia și Linux](incepatori/nvidia-si-linux.md)
 
 ### Despre pachete
-- [Prezentare](incepatori/despre-packages.md)  
-Comenzi de bază:  
+- [Prezentare](incepatori/despre-packages.md)
+- #### Comenzi de bază:
   - [Ubuntu/Debian](incepatori/comenzi-basic/debian.md)
   - [Fedora](incepatori/comenzi-basic/fedora.md)
   - [openSUSE](incepatori/comenzi-basic/opensuse.md)
