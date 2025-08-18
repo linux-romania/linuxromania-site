@@ -72,7 +72,8 @@ Există multe DE-uri, dar cele mai răspândite și importante sunt următoarele
 
 **Dezavantaje:**  
 - Inovație redusă, rămâne conservator.  
-- Mai puțin portat în afara Mint.  
+- Mai puțin portat în afara Mint.
+- Se bazează în principal pe **X11**, cu suport Wayland foarte slab.  
 
 ---
 
