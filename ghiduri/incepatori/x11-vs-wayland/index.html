@@ -568,9 +568,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#verifica-ce-rulezi" class="md-nav__link">
+  <a href="#cum-verifici-ce-rulezi" class="md-nav__link">
     <span class="md-ellipsis">
-      Verifică ce rulezi
+      Cum verifici ce rulezi
     </span>
   </a>
   
@@ -580,15 +580,6 @@
   <a href="#ce-ar-trebui-folosit" class="md-nav__link">
     <span class="md-ellipsis">
       Ce ar trebui folosit?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concluzie" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concluzie
     </span>
   </a>
   
@@ -997,9 +988,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#verifica-ce-rulezi" class="md-nav__link">
+  <a href="#cum-verifici-ce-rulezi" class="md-nav__link">
     <span class="md-ellipsis">
-      Verifică ce rulezi
+      Cum verifici ce rulezi
     </span>
   </a>
   
@@ -1009,15 +1000,6 @@
   <a href="#ce-ar-trebui-folosit" class="md-nav__link">
     <span class="md-ellipsis">
       Ce ar trebui folosit?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concluzie" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concluzie
     </span>
   </a>
   
@@ -1041,54 +1023,52 @@
 
 <h1 id="x11-vs-wayland">X11 vs Wayland</h1>
 <p>Pe Linux, interfața grafică are nevoie de un protocol care să facă legătura între aplicații și serverul grafic.<br />
-Standardul clasic a fost <strong>X11</strong> (sau X.Org Server), dar de câțiva ani direcția clară este trecerea la <strong>Wayland</strong>.  </p>
+Mult timp standardul a fost <strong>X11</strong> (X.Org Server), dar în prezent direcția este trecerea la <strong>Wayland</strong>.  </p>
 <hr />
 <h2 id="x11-xorg">X11 (X.Org)</h2>
 <ul>
-<li>Apărut în anii ’80, a rămas standardul implicit pe Linux timp de decenii.  </li>
-<li>Arhitectură foarte complexă și încărcată cu extensii adăugate de-a lungul anilor.  </li>
-<li>Oferă compatibilitate excelentă cu orice aplicație, dar are probleme fundamentale:  </li>
-<li>lipsă de izolare între aplicații (oricare poate spiona altă fereastră),  </li>
-<li>consum suplimentar de resurse,  </li>
-<li>performanță limitată pe hardware modern.  </li>
+<li>Lansat în anii ’80 și folosit ca standard principal timp de decenii.  </li>
+<li>Arhitectură complicată, cu multe extensii adăugate în timp.  </li>
+<li>Puncte forte: compatibilitate excelentă cu aproape toate aplicațiile.  </li>
+<li>Probleme majore:  </li>
+<li>lipsă de izolare între aplicații (oricare poate accesa informații din altă fereastră),  </li>
+<li>consum mai mare de resurse,  </li>
+<li>performanță limitată pe hardware și funcții moderne.  </li>
 </ul>
 <hr />
 <h2 id="wayland">Wayland</h2>
 <ul>
-<li>Creat ca alternativă modernă la X11, cu design simplificat.  </li>
-<li>Ferestrele și aplicațiile comunică direct cu compositorul grafic, ceea ce oferă latență mai mică și securitate mai bună.  </li>
-<li>Integrare mult mai bună cu hardware și tehnologii noi (refresh variabil, HiDPI, touch, GPU modern).  </li>
+<li>Creat ca înlocuitor simplificat și modern pentru X11.  </li>
+<li>Aplicațiile comunică direct cu compositorul grafic → latență mai mică, securitate mai bună.  </li>
+<li>Suport mai bun pentru tehnologii noi: refresh variabil, ecrane HiDPI, touchscreen, GPU moderne.  </li>
 </ul>
 <hr />
 <h2 id="suport-in-functie-de-desktop-environment-de-compositor">Suport în funcție de Desktop Environment (DE) / Compositor</h2>
 <ul>
-<li><strong>Foarte bun suport pentru Wayland:</strong>  </li>
-<li><strong>GNOME</strong> – folosește Wayland ca implicit pe multe distribuții (Fedora, Ubuntu).  </li>
-<li><strong>KDE Plasma (5.27+ și 6)</strong> – aproape complet pe Wayland, recomandat.  </li>
+<li><strong>Wayland matur și recomandat:</strong>  </li>
+<li><strong>GNOME</strong> – implicit pe multe distribuții (Fedora, Ubuntu).  </li>
+<li><strong>KDE Plasma (5.27+ și Plasma 6)</strong> – suport stabil, complet recomandat.  </li>
 <li>
-<p><strong>Hyprland și alte tiling compositors moderne</strong> – construite direct pe Wayland.  </p>
+<p><strong>Hyprland și alți compositori moderni</strong> – construite direct pentru Wayland.  </p>
 </li>
 <li>
-<p><strong>Suport limitat sau lipsă:</strong>  </p>
+<p><strong>Wayland limitat sau lipsă:</strong>  </p>
 </li>
-<li><strong>XFCE</strong> – încă orientat spre X11, suport Wayland abia la început.  </li>
+<li><strong>XFCE</strong> – funcționează în principal pe X11, suport Wayland abia la început.  </li>
 <li><strong>Cinnamon</strong> – suport foarte slab pentru Wayland.  </li>
-<li><strong>MATE, LXQt</strong> – în principal pe X11.  </li>
+<li><strong>MATE, LXQt</strong> – rămân în principal pe X11.  </li>
 </ul>
 <hr />
-<h2 id="verifica-ce-rulezi">Verifică ce rulezi</h2>
+<h2 id="cum-verifici-ce-rulezi">Cum verifici ce rulezi</h2>
 <p><div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="nv">$XDG_SESSION_TYPE</span>
 </code></pre></div>
 Rezultatul va fi <strong>x11</strong> sau <strong>wayland</strong>.</p>
 <hr />
 <h2 id="ce-ar-trebui-folosit">Ce ar trebui folosit?</h2>
-<p><strong>Wayland</strong> este direcția clară și ar trebui folosit ori de câte ori există suport în DE-ul sau compositorul tău.
-Deși X11 rămâne disponibil pentru compatibilitate, viitorul dezvoltării pe Linux se concentrează pe Wayland, iar suportul aplicațiilor devine din ce în ce mai bun.</p>
-<hr />
-<h2 id="concluzie">Concluzie</h2>
 <ul>
-<li><strong>X11</strong>: încă util pentru aplicații vechi și DE-uri fără suport Wayland, dar depășit.</li>
-<li><strong>Wayland</strong>: standardul actual și viitor, mai sigur și mai performant.</li>
+<li>Dacă DE-ul tău are suport bun pentru Wayland, folosește-l.</li>
+<li>X11 rămâne util pentru aplicații vechi și pentru medii fără suport Wayland, dar este depășit.</li>
+<li>Wayland este standardul actual și viitor, mai sigur și mai performant.</li>
 </ul>
 
 
