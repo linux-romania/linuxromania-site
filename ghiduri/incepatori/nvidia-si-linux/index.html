@@ -1034,53 +1034,53 @@
 
 
 <h1 id="nvidia-si-linux-situatia-actuala">NVIDIA și Linux – situația actuală</h1>
-<p>Timp de mulți ani, plăcile NVIDIA au fost mai greu de folosit pe Linux comparativ cu AMD.<br />
-Problemele veneau în special de la driverele vechi open source (<strong>Nouveau</strong>) și de la suportul slab pentru Wayland.<br />
-Între timp, lucrurile s-au schimbat: NVIDIA oferă acum <strong>drivere open kernel modules</strong>, care pe plăcile moderne sunt adesea mai bune decât cele proprietare.  </p>
+<p>Mult timp, plăcile NVIDIA au fost mai greu de folosit pe Linux comparativ cu AMD.<br />
+Problemele erau legate în special de driverele vechi open source (<strong>Nouveau</strong>) și de suportul slab pentru Wayland.<br />
+Situația s-a schimbat în prezent, NVIDIA oferă acum <strong>drivere open kernel modules</strong>, care pe plăcile moderne pot fi mai bune decât cele proprietare.  </p>
 <hr />
 <h2 id="tipuri-de-drivere-nvidia">Tipuri de drivere NVIDIA</h2>
 <h3 id="nouveau">Nouveau</h3>
 <ul>
 <li>Primul driver open source pentru NVIDIA, dezvoltat de comunitate.  </li>
-<li>Nu are suport bun pentru plăci moderne, performanță slabă, lipsă de funcții importante.  </li>
-<li>Se mai folosește doar ca fallback, nu este recomandat în utilizarea de zi cu zi.  </li>
+<li>Nu oferă suport pentru plăcile moderne, are performanță scăzută și lipsesc multe funcții.  </li>
+<li>Se mai folosește doar ca fallback și nu este recomandat în utilizarea de zi cu zi.  </li>
 </ul>
 <h3 id="drivere-proprietare-closed-source">Drivere proprietare (closed source)</h3>
 <ul>
-<li>Lansate și menținute de NVIDIA.  </li>
-<li>Compatibilitate completă cu CUDA și aplicații profesionale.  </li>
-<li>Încă necesare pe plăci mai vechi (unde driverele open nu au suport).  </li>
+<li>Lansate și întreținute de NVIDIA.  </li>
+<li>Compatibile complet cu CUDA și aplicații profesionale.  </li>
+<li>Încă necesare pe plăcile mai vechi, unde driverele open nu au suport complet.  </li>
 </ul>
 <h3 id="drivere-nvidia-open-open-kernel-modules">Drivere NVIDIA open (Open Kernel Modules)</h3>
 <ul>
-<li>Publicate în 2022, menținute oficial de NVIDIA.  </li>
-<li>Se integrează direct în kernel și funcționează foarte bine pe generațiile recente (RTX 2000+).  </li>
-<li>În multe cazuri oferă stabilitate și performanță mai bună decât driverele proprietare.  </li>
-<li>Recomandate pentru plăci moderne.  </li>
+<li>Publicate în 2022 și menținute de NVIDIA.  </li>
+<li>Se integrează direct cu kernelul Linux și funcționează foarte bine pe generațiile recente (RTX 2000 și mai noi).  </li>
+<li>În multe cazuri sunt mai stabile și mai performante decât cele proprietare.  </li>
+<li>Recomandate pentru plăcile moderne.  </li>
 </ul>
 <hr />
 <h2 id="amd-vs-nvidia-pe-linux">AMD vs NVIDIA pe Linux</h2>
 <ul>
 <li><strong>AMD</strong>  </li>
 <li>Driverele open source sunt incluse direct în kernel și Mesa.  </li>
-<li>Nu necesită instalare separată.  </li>
+<li>Nu necesită instalare suplimentară.  </li>
 <li>
 <p>Suport foarte bun pentru gaming, desktop și Wayland.  </p>
 </li>
 <li>
 <p><strong>NVIDIA</strong>  </p>
 </li>
-<li>Pe plăcile noi, driverele open NVIDIA sunt recomandate.  </li>
-<li>Pe plăcile mai vechi, driverele proprietare rămân obligatorii.  </li>
-<li>Configurația poate necesita pași suplimentari în funcție de distribuție, dar situația este mult mai bună decât în trecut.  </li>
+<li>Pe plăcile moderne, driverele open NVIDIA sunt alegerea recomandată.  </li>
+<li>Pe plăcile mai vechi, driverele proprietare rămân necesare.  </li>
+<li>Instalarea poate diferi între distribuții, dar suportul este mult mai bun decât în trecut.  </li>
 </ul>
 <hr />
 <h1 id="concluzie">Concluzie</h1>
 <ul>
-<li><strong>Nouveau</strong> este învechit și nu ar trebui folosit decât ca soluție de urgență.  </li>
-<li><strong>Driverele proprietare</strong> rămân utile pentru plăci vechi sau pentru CUDA.  </li>
-<li><strong>Driverele open NVIDIA</strong> sunt alegerea corectă pentru plăci moderne.  </li>
-<li><strong>AMD</strong> oferă în continuare cea mai simplă experiență, dar și NVIDIA e mult mai ușor de folosit azi decât era acum câțiva ani.  </li>
+<li><strong>Nouveau</strong> este vechi și nu ar trebui folosit decât ca soluție de urgență.  </li>
+<li><strong>Driverele proprietare</strong> sunt utile pentru plăcile vechi sau pentru CUDA.  </li>
+<li><strong>Driverele open NVIDIA</strong> sunt recomandate pentru plăcile moderne.  </li>
+<li><strong>AMD</strong> rămâne mai simplu de folosit, dar și NVIDIA are acum suport mult mai bun pe Linux.  </li>
 </ul>
 
 
