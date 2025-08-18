@@ -1,6 +1,6 @@
 # Ghiduri Linux
 
-Alege dintre ghidurile disponibile:
+## Alege dintre ghidurile disponibile:
 
 - [Alege distribuția](incepatori/alege-distributia.md)
 - [Cum să faci un stick USB cu Linux](incepatori/usb-bootabil.md)
